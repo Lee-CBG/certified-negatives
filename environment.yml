@@ -1,0 +1,22 @@
+# Conda environment for the TCR-epitope ablation.
+#
+# Torch is deliberately NOT listed here. PyTorch stopped publishing to the
+# `pytorch` Anaconda channel (2.5 was the last release on it), and the correct
+# CUDA wheel depends on your driver, so torch is installed with pip afterwards.
+# See setup_env.sh, or the README.
+#
+#   conda env create -f environment.yml
+#   conda activate tcr-ablation
+#   ./setup_env.sh cu124        # or whichever CUDA tag matches your driver
+
+name: tcr-ablation
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - pandas>=2.0
+  - scikit-learn>=1.3
+  - pip

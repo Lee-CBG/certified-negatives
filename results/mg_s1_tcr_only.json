@@ -1,0 +1,16 @@
+{
+  "mode": "tcr_only",
+  "test_auroc": 0.5391,
+  "macro_auroc_per_epitope": 0.5041,
+  "n_epitopes_in_macro": 304,
+  "best_val_auroc": 0.5419,
+  "tcr_embed_dim": 480,
+  "epi_embed_dim": 528,
+  "n_parameters": 6275073,
+  "n_train": 225010,
+  "n_test": 45004,
+  "epochs_run": 82,
+  "seed": 1,
+  "batch_size": 32,
+  "runtime_sec": 2555.6
+}

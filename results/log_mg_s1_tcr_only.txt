@@ -1,0 +1,101 @@
+Loading data/mg_seed1.pkl ...
+  split: precomputed partition column
+mode=tcr_only  device=cuda
+train 225,010 / val 30,002 / test 45,004
+epitopes: train 965, val 628, test 707 (691 SHARED with train)
+
+TCR embed dim 480  |  epi embed dim 528
+Moving tensors to device ...
+  GPU memory held by data: 1.13 GB
+parameters: 6,275,073
+
+  epoch   1  loss 0.6995  val AUROC 0.5160  <- best  patience 0/30  [31s]
+  epoch   2  loss 0.6946  val AUROC 0.5203  <- best  patience 0/30  [55s]
+  epoch   3  loss 0.6937  val AUROC 0.5248  <- best  patience 0/30  [85s]
+  epoch   4  loss 0.6931  val AUROC 0.5329  <- best  patience 0/30  [109s]
+  epoch   5  loss 0.6926  val AUROC 0.5294  patience 1/30  [136s]
+  epoch   6  loss 0.6920  val AUROC 0.5275  patience 2/30  [162s]
+  epoch   7  loss 0.6911  val AUROC 0.5251  patience 3/30  [195s]
+  epoch   8  loss 0.6906  val AUROC 0.5268  patience 4/30  [225s]
+  epoch   9  loss 0.6902  val AUROC 0.5314  patience 5/30  [256s]
+  epoch  10  loss 0.6898  val AUROC 0.5314  patience 6/30  [288s]
+  epoch  11  loss 0.6893  val AUROC 0.5352  <- best  patience 0/30  [320s]
+  epoch  12  loss 0.6889  val AUROC 0.5367  <- best  patience 0/30  [353s]
+  epoch  13  loss 0.6886  val AUROC 0.5293  patience 1/30  [383s]
+  epoch  14  loss 0.6882  val AUROC 0.5367  patience 2/30  [414s]
+  epoch  15  loss 0.6878  val AUROC 0.5361  patience 3/30  [445s]
+  epoch  16  loss 0.6876  val AUROC 0.5348  patience 4/30  [476s]
+  epoch  17  loss 0.6875  val AUROC 0.5378  <- best  patience 0/30  [507s]
+  epoch  18  loss 0.6871  val AUROC 0.5392  <- best  patience 0/30  [538s]
+  epoch  19  loss 0.6871  val AUROC 0.5356  patience 1/30  [569s]
+  epoch  20  loss 0.6864  val AUROC 0.5324  patience 2/30  [601s]
+  epoch  21  loss 0.6863  val AUROC 0.5313  patience 3/30  [633s]
+  epoch  22  loss 0.6862  val AUROC 0.5374  patience 4/30  [665s]
+  epoch  23  loss 0.6860  val AUROC 0.5369  patience 5/30  [696s]
+  epoch  24  loss 0.6860  val AUROC 0.5361  patience 6/30  [728s]
+  epoch  25  loss 0.6855  val AUROC 0.5375  patience 7/30  [760s]
+  epoch  26  loss 0.6852  val AUROC 0.5349  patience 8/30  [792s]
+  epoch  27  loss 0.6851  val AUROC 0.5379  patience 9/30  [823s]
+  epoch  28  loss 0.6850  val AUROC 0.5392  <- best  patience 0/30  [854s]
+  epoch  29  loss 0.6849  val AUROC 0.5385  patience 1/30  [885s]
+  epoch  30  loss 0.6846  val AUROC 0.5325  patience 2/30  [916s]
+  epoch  31  loss 0.6844  val AUROC 0.5368  patience 3/30  [947s]
+  epoch  32  loss 0.6842  val AUROC 0.5385  patience 4/30  [978s]
+  epoch  33  loss 0.6844  val AUROC 0.5407  <- best  patience 0/30  [1011s]
+  epoch  34  loss 0.6838  val AUROC 0.5388  patience 1/30  [1042s]
+  epoch  35  loss 0.6838  val AUROC 0.5383  patience 2/30  [1072s]
+  epoch  36  loss 0.6832  val AUROC 0.5376  patience 3/30  [1104s]
+  epoch  37  loss 0.6831  val AUROC 0.5395  patience 4/30  [1135s]
+  epoch  38  loss 0.6833  val AUROC 0.5366  patience 5/30  [1166s]
+  epoch  39  loss 0.6830  val AUROC 0.5391  patience 6/30  [1197s]
+  epoch  40  loss 0.6825  val AUROC 0.5353  patience 7/30  [1229s]
+  epoch  41  loss 0.6825  val AUROC 0.5409  <- best  patience 0/30  [1260s]
+  epoch  42  loss 0.6824  val AUROC 0.5352  patience 1/30  [1292s]
+  epoch  43  loss 0.6824  val AUROC 0.5414  <- best  patience 0/30  [1324s]
+  epoch  44  loss 0.6823  val AUROC 0.5361  patience 1/30  [1355s]
+  epoch  45  loss 0.6820  val AUROC 0.5351  patience 2/30  [1386s]
+  epoch  46  loss 0.6817  val AUROC 0.5416  <- best  patience 0/30  [1419s]
+  epoch  47  loss 0.6815  val AUROC 0.5358  patience 1/30  [1450s]
+  epoch  48  loss 0.6812  val AUROC 0.5371  patience 2/30  [1481s]
+  epoch  49  loss 0.6813  val AUROC 0.5400  patience 3/30  [1512s]
+  epoch  50  loss 0.6808  val AUROC 0.5381  patience 4/30  [1543s]
+  epoch  51  loss 0.6809  val AUROC 0.5340  patience 5/30  [1575s]
+  epoch  52  loss 0.6808  val AUROC 0.5419  <- best  patience 0/30  [1606s]
+  epoch  53  loss 0.6804  val AUROC 0.5390  patience 1/30  [1638s]
+  epoch  54  loss 0.6803  val AUROC 0.5406  patience 2/30  [1668s]
+  epoch  55  loss 0.6801  val AUROC 0.5412  patience 3/30  [1701s]
+  epoch  56  loss 0.6802  val AUROC 0.5390  patience 4/30  [1733s]
+  epoch  57  loss 0.6801  val AUROC 0.5385  patience 5/30  [1764s]
+  epoch  58  loss 0.6799  val AUROC 0.5384  patience 6/30  [1794s]
+  epoch  59  loss 0.6793  val AUROC 0.5411  patience 7/30  [1825s]
+  epoch  60  loss 0.6796  val AUROC 0.5359  patience 8/30  [1857s]
+  epoch  61  loss 0.6795  val AUROC 0.5395  patience 9/30  [1887s]
+  epoch  62  loss 0.6793  val AUROC 0.5361  patience 10/30  [1919s]
+  epoch  63  loss 0.6789  val AUROC 0.5388  patience 11/30  [1952s]
+  epoch  64  loss 0.6792  val AUROC 0.5383  patience 12/30  [1984s]
+  epoch  65  loss 0.6787  val AUROC 0.5408  patience 13/30  [2016s]
+  epoch  66  loss 0.6785  val AUROC 0.5388  patience 14/30  [2048s]
+  epoch  67  loss 0.6783  val AUROC 0.5398  patience 15/30  [2079s]
+  epoch  68  loss 0.6782  val AUROC 0.5403  patience 16/30  [2112s]
+  epoch  69  loss 0.6780  val AUROC 0.5403  patience 17/30  [2143s]
+  epoch  70  loss 0.6781  val AUROC 0.5407  patience 18/30  [2175s]
+  epoch  71  loss 0.6778  val AUROC 0.5361  patience 19/30  [2205s]
+  epoch  72  loss 0.6778  val AUROC 0.5370  patience 20/30  [2236s]
+  epoch  73  loss 0.6772  val AUROC 0.5371  patience 21/30  [2268s]
+  epoch  74  loss 0.6775  val AUROC 0.5346  patience 22/30  [2300s]
+  epoch  75  loss 0.6772  val AUROC 0.5366  patience 23/30  [2332s]
+  epoch  76  loss 0.6771  val AUROC 0.5401  patience 24/30  [2363s]
+  epoch  77  loss 0.6769  val AUROC 0.5399  patience 25/30  [2396s]
+  epoch  78  loss 0.6766  val AUROC 0.5378  patience 26/30  [2427s]
+  epoch  79  loss 0.6766  val AUROC 0.5387  patience 27/30  [2458s]
+  epoch  80  loss 0.6767  val AUROC 0.5364  patience 28/30  [2491s]
+  epoch  81  loss 0.6764  val AUROC 0.5362  patience 29/30  [2522s]
+  epoch  82  loss 0.6765  val AUROC 0.5387  patience 30/30  [2554s]
+  early stop at epoch 82
+  saved raw predictions to results/preds_mg_s1_tcr_only.npz
+
+  test AUROC              0.5391
+  macro AUROC per epitope 0.5041 (304 epitopes)
+  runtime                 2555.6s
+
+Written to results/mg_s1_tcr_only.json

@@ -1,0 +1,416 @@
+{
+  "seed0": {
+    "seed": 0,
+    "partition_floor": {
+      "health": {
+        "n_features": 52139,
+        "n_distinct_scores": 1,
+        "score_spread": 0.0,
+        "max_abs_coef": 0.0,
+        "mean_abs_coef": 0.0,
+        "collapsed": true
+      },
+      "macro": {
+        "macro": 0.5,
+        "n_ep": 130,
+        "frac_below_half": 0.0,
+        "by_size_band": {
+          "1-5": {
+            "macro": 0.5,
+            "n_ep": 28
+          },
+          "6-10": {
+            "macro": 0.5,
+            "n_ep": 26
+          },
+          "11-25": {
+            "macro": 0.5,
+            "n_ep": 19
+          },
+          "26-100": {
+            "macro": 0.5,
+            "n_ep": 24
+          },
+          "101+": {
+            "macro": 0.5,
+            "n_ep": 33
+          }
+        }
+      },
+      "pooled": 0.5
+    },
+    "random_inversion": {
+      "n_shared_receptors": 32483,
+      "frac_of_test_receptors_shared": 0.8048,
+      "corr": -0.9062,
+      "all_negative_in_train_pct_positive_in_test": 96.24,
+      "all_positive_in_train_pct_positive_in_test": 0.54
+    },
+    "random_floor": {
+      "health": {
+        "n_features": 55203,
+        "n_distinct_scores": 40363,
+        "score_spread": 0.4583729303224554,
+        "max_abs_coef": 1.614242307753558,
+        "mean_abs_coef": 0.1048183470322054,
+        "collapsed": false
+      },
+      "macro": {
+        "macro": 0.3164,
+        "n_ep": 296,
+        "frac_below_half": 0.9291,
+        "by_size_band": {
+          "1-5": {
+            "macro": 0.3075,
+            "n_ep": 60
+          },
+          "6-10": {
+            "macro": 0.3463,
+            "n_ep": 52
+          },
+          "11-25": {
+            "macro": 0.2962,
+            "n_ep": 73
+          },
+          "26-100": {
+            "macro": 0.3163,
+            "n_ep": 67
+          },
+          "101+": {
+            "macro": 0.3272,
+            "n_ep": 44
+          }
+        }
+      },
+      "pooled": 0.3474
+    },
+    "grouped_construction": {
+      "n_train": 225011,
+      "n_test": 45003,
+      "epitopes_shared": 688,
+      "test_epitopes": 698,
+      "frac_test_epitopes_seen": 0.9857,
+      "receptor_overlap": 0,
+      "test_positive_rate": 0.4999,
+      "test_epitopes_off_50pct_by_5pp": 468
+    },
+    "grouped_inversion": {
+      "n_shared_receptors": 0,
+      "corr": null
+    },
+    "grouped_floor": {
+      "health": {
+        "n_features": 53108,
+        "n_distinct_scores": 21144,
+        "score_spread": 0.38426419411667356,
+        "max_abs_coef": 1.3512538063821655,
+        "mean_abs_coef": 0.052733398616579205,
+        "collapsed": false
+      },
+      "macro": {
+        "macro": 0.4733,
+        "n_ep": 290,
+        "frac_below_half": 0.5724,
+        "by_size_band": {
+          "1-5": {
+            "macro": 0.44,
+            "n_ep": 58
+          },
+          "6-10": {
+            "macro": 0.4808,
+            "n_ep": 51
+          },
+          "11-25": {
+            "macro": 0.4707,
+            "n_ep": 69
+          },
+          "26-100": {
+            "macro": 0.4837,
+            "n_ep": 70
+          },
+          "101+": {
+            "macro": 0.4968,
+            "n_ep": 42
+          }
+        }
+      },
+      "pooled": 0.508
+    }
+  },
+  "seed1": {
+    "seed": 1,
+    "partition_floor": {
+      "health": {
+        "n_features": 50635,
+        "n_distinct_scores": 1,
+        "score_spread": 0.0,
+        "max_abs_coef": 0.0,
+        "mean_abs_coef": 0.0,
+        "collapsed": true
+      },
+      "macro": {
+        "macro": 0.5,
+        "n_ep": 91,
+        "frac_below_half": 0.0,
+        "by_size_band": {
+          "1-5": {
+            "macro": 0.5,
+            "n_ep": 28
+          },
+          "6-10": {
+            "macro": 0.5,
+            "n_ep": 15
+          },
+          "11-25": {
+            "macro": 0.5,
+            "n_ep": 10
+          },
+          "26-100": {
+            "macro": 0.5,
+            "n_ep": 17
+          },
+          "101+": {
+            "macro": 0.5,
+            "n_ep": 21
+          }
+        }
+      },
+      "pooled": 0.5
+    },
+    "random_inversion": {
+      "n_shared_receptors": 32583,
+      "frac_of_test_receptors_shared": 0.8066,
+      "corr": -0.913,
+      "all_negative_in_train_pct_positive_in_test": 96.43,
+      "all_positive_in_train_pct_positive_in_test": 0.46
+    },
+    "random_floor": {
+      "health": {
+        "n_features": 55009,
+        "n_distinct_scores": 40393,
+        "score_spread": 0.4446629363710116,
+        "max_abs_coef": 1.0988304416436707,
+        "mean_abs_coef": 0.1297819946019716,
+        "collapsed": false
+      },
+      "macro": {
+        "macro": 0.2791,
+        "n_ep": 287,
+        "frac_below_half": 0.9582,
+        "by_size_band": {
+          "1-5": {
+            "macro": 0.2705,
+            "n_ep": 47
+          },
+          "6-10": {
+            "macro": 0.2742,
+            "n_ep": 64
+          },
+          "11-25": {
+            "macro": 0.2721,
+            "n_ep": 66
+          },
+          "26-100": {
+            "macro": 0.2848,
+            "n_ep": 67
+          },
+          "101+": {
+            "macro": 0.2977,
+            "n_ep": 43
+          }
+        }
+      },
+      "pooled": 0.3164
+    },
+    "grouped_construction": {
+      "n_train": 225010,
+      "n_test": 45003,
+      "epitopes_shared": 651,
+      "test_epitopes": 664,
+      "frac_test_epitopes_seen": 0.9804,
+      "receptor_overlap": 0,
+      "test_positive_rate": 0.5007,
+      "test_epitopes_off_50pct_by_5pp": 450
+    },
+    "grouped_inversion": {
+      "n_shared_receptors": 0,
+      "corr": null
+    },
+    "grouped_floor": {
+      "health": {
+        "n_features": 53338,
+        "n_distinct_scores": 21136,
+        "score_spread": 0.08538306561353176,
+        "max_abs_coef": 0.21541180686079667,
+        "mean_abs_coef": 0.0011439035151867068,
+        "collapsed": false
+      },
+      "macro": {
+        "macro": 0.4642,
+        "n_ep": 286,
+        "frac_below_half": 0.6783,
+        "by_size_band": {
+          "1-5": {
+            "macro": 0.4425,
+            "n_ep": 50
+          },
+          "6-10": {
+            "macro": 0.4782,
+            "n_ep": 61
+          },
+          "11-25": {
+            "macro": 0.4619,
+            "n_ep": 68
+          },
+          "26-100": {
+            "macro": 0.4559,
+            "n_ep": 62
+          },
+          "101+": {
+            "macro": 0.484,
+            "n_ep": 45
+          }
+        }
+      },
+      "pooled": 0.5051
+    }
+  },
+  "seed2": {
+    "seed": 2,
+    "partition_floor": {
+      "health": {
+        "n_features": 51484,
+        "n_distinct_scores": 1,
+        "score_spread": 0.0,
+        "max_abs_coef": 0.0,
+        "mean_abs_coef": 0.0,
+        "collapsed": true
+      },
+      "macro": {
+        "macro": 0.5,
+        "n_ep": 152,
+        "frac_below_half": 0.0,
+        "by_size_band": {
+          "1-5": {
+            "macro": 0.5,
+            "n_ep": 35
+          },
+          "6-10": {
+            "macro": 0.5,
+            "n_ep": 23
+          },
+          "11-25": {
+            "macro": 0.5,
+            "n_ep": 23
+          },
+          "26-100": {
+            "macro": 0.5,
+            "n_ep": 44
+          },
+          "101+": {
+            "macro": 0.5,
+            "n_ep": 27
+          }
+        }
+      },
+      "pooled": 0.5
+    },
+    "random_inversion": {
+      "n_shared_receptors": 32805,
+      "frac_of_test_receptors_shared": 0.8105,
+      "corr": -0.9184,
+      "all_negative_in_train_pct_positive_in_test": 96.6,
+      "all_positive_in_train_pct_positive_in_test": 0.47
+    },
+    "random_floor": {
+      "health": {
+        "n_features": 55081,
+        "n_distinct_scores": 40477,
+        "score_spread": 0.576987834809692,
+        "max_abs_coef": 0.6638140945544357,
+        "mean_abs_coef": 0.03402883869059618,
+        "collapsed": false
+      },
+      "macro": {
+        "macro": 0.3603,
+        "n_ep": 291,
+        "frac_below_half": 0.8832,
+        "by_size_band": {
+          "1-5": {
+            "macro": 0.3282,
+            "n_ep": 59
+          },
+          "6-10": {
+            "macro": 0.3494,
+            "n_ep": 59
+          },
+          "11-25": {
+            "macro": 0.3554,
+            "n_ep": 66
+          },
+          "26-100": {
+            "macro": 0.3744,
+            "n_ep": 62
+          },
+          "101+": {
+            "macro": 0.4044,
+            "n_ep": 45
+          }
+        }
+      },
+      "pooled": 0.4258
+    },
+    "grouped_construction": {
+      "n_train": 225009,
+      "n_test": 45004,
+      "epitopes_shared": 666,
+      "test_epitopes": 682,
+      "frac_test_epitopes_seen": 0.9765,
+      "receptor_overlap": 0,
+      "test_positive_rate": 0.4993,
+      "test_epitopes_off_50pct_by_5pp": 464
+    },
+    "grouped_inversion": {
+      "n_shared_receptors": 0,
+      "corr": null
+    },
+    "grouped_floor": {
+      "health": {
+        "n_features": 53449,
+        "n_distinct_scores": 21103,
+        "score_spread": 0.480066303409875,
+        "max_abs_coef": 0.7180388753352682,
+        "mean_abs_coef": 0.02603243609896138,
+        "collapsed": false
+      },
+      "macro": {
+        "macro": 0.4475,
+        "n_ep": 285,
+        "frac_below_half": 0.6211,
+        "by_size_band": {
+          "1-5": {
+            "macro": 0.4509,
+            "n_ep": 46
+          },
+          "6-10": {
+            "macro": 0.4257,
+            "n_ep": 63
+          },
+          "11-25": {
+            "macro": 0.4297,
+            "n_ep": 66
+          },
+          "26-100": {
+            "macro": 0.4545,
+            "n_ep": 66
+          },
+          "101+": {
+            "macro": 0.4917,
+            "n_ep": 44
+          }
+        }
+      },
+      "pooled": 0.5156
+    }
+  }
+}

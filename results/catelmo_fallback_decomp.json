@@ -1,0 +1,101 @@
+{
+  "seed0": {
+    "seed": 0,
+    "test": {
+      "n_neg": 22818,
+      "n_fallback": 7439,
+      "fallback_frac": 0.326,
+      "fallback_down": 6639,
+      "fallback_up": 800,
+      "fallback_mean_shift": -0.7849173275977954,
+      "all": {
+        "macro": 0.47789059729183203,
+        "sd": 0.31570675816923505,
+        "n_epitopes": 130,
+        "median_gap": -0.021739130434781373
+      },
+      "same_bucket": {
+        "macro": 0.4698928014824979,
+        "sd": 0.31623398045293777,
+        "n_epitopes": 129,
+        "median_gap": -0.16666666666666696
+      },
+      "fallback": {
+        "macro": 0.7580832742421231,
+        "sd": 0.24191672575787687,
+        "n_epitopes": 2,
+        "median_gap": 1741.7861593359057
+      },
+      "build_counts": {
+        "fallbacks": 7439,
+        "misses": 0
+      }
+    }
+  },
+  "seed1": {
+    "seed": 1,
+    "test": {
+      "n_neg": 27538,
+      "n_fallback": 7318,
+      "fallback_frac": 0.2657,
+      "fallback_down": 7318,
+      "fallback_up": 0,
+      "fallback_mean_shift": -1.0,
+      "all": {
+        "macro": 0.48844995564103294,
+        "sd": 0.33837182554963696,
+        "n_epitopes": 91,
+        "median_gap": -0.5
+      },
+      "same_bucket": {
+        "macro": 0.48276606625926666,
+        "sd": 0.33589844298369265,
+        "n_epitopes": 90,
+        "median_gap": -0.5
+      },
+      "fallback": {
+        "macro": 1.0,
+        "sd": 0.0,
+        "n_epitopes": 1,
+        "median_gap": 3986.1658923203063
+      },
+      "build_counts": {
+        "fallbacks": 7318,
+        "misses": 0
+      }
+    }
+  },
+  "seed2": {
+    "seed": 2,
+    "test": {
+      "n_neg": 24814,
+      "n_fallback": 9878,
+      "fallback_frac": 0.3981,
+      "fallback_down": 8592,
+      "fallback_up": 1286,
+      "fallback_mean_shift": -0.7396234055476817,
+      "all": {
+        "macro": 0.47836110563116196,
+        "sd": 0.30561105321353416,
+        "n_epitopes": 152,
+        "median_gap": -1.0
+      },
+      "same_bucket": {
+        "macro": 0.47162619130851763,
+        "sd": 0.30605972078019245,
+        "n_epitopes": 151,
+        "median_gap": -1.0
+      },
+      "fallback": {
+        "macro": 0.7492193584501557,
+        "sd": 0.2507806415498442,
+        "n_epitopes": 2,
+        "median_gap": 1427.8022695190812
+      },
+      "build_counts": {
+        "fallbacks": 9878,
+        "misses": 0
+      }
+    }
+  }
+}

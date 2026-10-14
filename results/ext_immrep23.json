@@ -1,0 +1,91 @@
+{
+  "name": "immrep23",
+  "csv": "data/immrep23_canon.csv",
+  "n_rows": 3484,
+  "n_pos": 598,
+  "n_neg": 2886,
+  "n_epitopes": 20,
+  "n_tcrs": 632,
+  "overlap_audit": {
+    "n_pairs": 3484,
+    "n_pos": 598,
+    "n_neg": 2886,
+    "n_epitopes": 20,
+    "n_tcrs": 632,
+    "tcr_overlap": 52,
+    "epi_overlap": 14,
+    "pair_overlap": 48,
+    "pos_pair_overlap": 47,
+    "tcr_overlap_frac": 0.0823,
+    "epi_overlap_frac": 0.7
+  },
+  "provenance_floor": [
+    {
+      "pooled_auroc": 0.5759948268309474,
+      "macro_auroc": 0.5796209716333172,
+      "macro_sd": 0.04787164894145344,
+      "macro_n": 20,
+      "fold_aurocs": [
+        0.5634686400511761,
+        0.617735413056037,
+        0.5716782206816868,
+        0.581528018486424,
+        0.5491676740020098
+      ],
+      "n_pairs": 3484,
+      "seed": 0
+    },
+    {
+      "pooled_auroc": 0.5703042249864994,
+      "macro_auroc": 0.5698777725213652,
+      "macro_sd": 0.05514056942021941,
+      "macro_n": 20,
+      "fold_aurocs": [
+        0.5839027652583525,
+        0.5679015020219527,
+        0.5727469670710572,
+        0.5737723859041016,
+        0.5537116059595415
+      ],
+      "n_pairs": 3484,
+      "seed": 1
+    },
+    {
+      "pooled_auroc": 0.5677787705379678,
+      "macro_auroc": 0.5634919013335722,
+      "macro_sd": 0.056944759887016486,
+      "macro_n": 20,
+      "fold_aurocs": [
+        0.5638975313308714,
+        0.5610846331600231,
+        0.5849725592143269,
+        0.557105719237435,
+        0.5724553252843598
+      ],
+      "n_pairs": 3484,
+      "seed": 2
+    }
+  ],
+  "floor_macro_mean": 0.5709968818294181,
+  "floor_macro_sd": 0.0066320450046752554,
+  "home_size": {
+    "home_max_pooled": 0.7275339720991895,
+    "home_max_macro": 0.6272929903955374,
+    "home_max_macro_sd": 0.15320701954413132,
+    "n_epitopes_evaluated": 20,
+    "within_epi_gap_mean": 34.40218668351345,
+    "epi_size_distribution": {
+      "GILGFVFTL": 526,
+      "RAKFKQLL": 362,
+      "VSDGGPNLY": 346,
+      "EPLPQGQLTAY": 288,
+      "NLVPMVATV": 258,
+      "YVLDHLIVV": 204,
+      "TDLGQNLLY": 198,
+      "VTEHDTLLY": 150,
+      "GLCTLVAML": 144,
+      "VLEETSVML": 126
+    }
+  },
+  "elapsed_s": 2.1
+}

@@ -1,0 +1,26 @@
+# ---- Derived datasets: regenerable, see README "Rebuilding the datasets" ----
+# Twenty 1.2 GB BLOSUM-encoded pickles. Rebuild byte-identically from
+# data/TCREpitopePairs.csv with src/make_matched_pkl.py + make_grouped_pkl.py.
+*.pkl
+
+# ---- Large external source file: fetched by setup_external.sh ----
+data/vdjdb_full.tsv
+
+# ---- Jupyter autosave copies ----
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ---- Python bytecode ----
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- Editor and OS cruft ----
+*.bak
+*.swp
+*~
+.DS_Store
+
+# ---- Run logs ----
+logs/
+*.log

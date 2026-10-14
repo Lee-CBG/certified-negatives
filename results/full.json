@@ -1,0 +1,13 @@
+{
+  "mode": "full",
+  "test_auroc": 0.745,
+  "macro_auroc_per_epitope": 0.7529,
+  "n_epitopes_in_macro": 56,
+  "best_val_auroc": 0.7443,
+  "n_parameters": 52929,
+  "n_train": 89183,
+  "n_test": 18313,
+  "epochs": 12,
+  "seed": 0,
+  "runtime_sec": 46.9
+}

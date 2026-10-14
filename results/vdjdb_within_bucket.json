@@ -1,0 +1,3214 @@
+{
+  "seed0": {
+    "seed": 0,
+    "same_bucket_macro": 0.5365880311123293,
+    "null_mean": 0.5017624865093927,
+    "null_sd": 0.01885815088406588,
+    "z": 1.846710465783914,
+    "n_epitopes": 35,
+    "corr_position_auroc": 0.7987071857255589,
+    "corr_logsize_auroc": 0.002395298763530354
+  },
+  "seed1": {
+    "seed": 1,
+    "same_bucket_macro": 0.5242116580969461,
+    "null_mean": 0.4998439155864578,
+    "null_sd": 0.011546591007590486,
+    "z": 2.1103841380083095,
+    "n_epitopes": 158,
+    "corr_position_auroc": 0.7222004802726509,
+    "corr_logsize_auroc": -0.10766801490130999
+  },
+  "seed2": {
+    "seed": 2,
+    "same_bucket_macro": 0.5014797656704575,
+    "null_mean": 0.49915787708018455,
+    "null_sd": 0.009536934619706325,
+    "z": 0.243462777387105,
+    "n_epitopes": 125,
+    "corr_position_auroc": 0.8179447145714313,
+    "corr_logsize_auroc": -0.07579044450987839
+  },
+  "_per_epitope": [
+    {
+      "epitope": "ALASCMGLIY",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 0
+    },
+    {
+      "epitope": "ALWEIQQVV",
+      "size": 153,
+      "bucket": 7,
+      "position": 0.25738784269265214,
+      "auroc": 0.0,
+      "n_pos": 153,
+      "n_neg": 153,
+      "seed": 0
+    },
+    {
+      "epitope": "APARLERRHSA",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 0
+    },
+    {
+      "epitope": "AWCSDEALPLGS",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 0
+    },
+    {
+      "epitope": "CLLGTYTQDV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.7222222222222222,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 0
+    },
+    {
+      "epitope": "CTELKLSDY",
+      "size": 224,
+      "bucket": 7,
+      "position": 0.8073549220576037,
+      "auroc": 0.9911112882653061,
+      "n_pos": 224,
+      "n_neg": 224,
+      "seed": 0
+    },
+    {
+      "epitope": "FAMQMAYRF",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 0
+    },
+    {
+      "epitope": "FLDGSCGSV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 0
+    },
+    {
+      "epitope": "FLYALALLL",
+      "size": 126,
+      "bucket": 6,
+      "position": 0.9772799234999168,
+      "auroc": 1.0,
+      "n_pos": 126,
+      "n_neg": 126,
+      "seed": 0
+    },
+    {
+      "epitope": "GLNKIVRMY",
+      "size": 28,
+      "bucket": 4,
+      "position": 0.8073549220576037,
+      "auroc": 1.0,
+      "n_pos": 28,
+      "n_neg": 28,
+      "seed": 0
+    },
+    {
+      "epitope": "GQVMVVAPR",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 0
+    },
+    {
+      "epitope": "GRKLFGTHF",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 0
+    },
+    {
+      "epitope": "HSNLNDATY",
+      "size": 56,
+      "bucket": 5,
+      "position": 0.8073549220576037,
+      "auroc": 1.0,
+      "n_pos": 56,
+      "n_neg": 56,
+      "seed": 0
+    },
+    {
+      "epitope": "ILKGKFQTA",
+      "size": 13,
+      "bucket": 3,
+      "position": 0.7004397181410922,
+      "auroc": 0.46153846153846156,
+      "n_pos": 13,
+      "n_neg": 13,
+      "seed": 0
+    },
+    {
+      "epitope": "IPTITQMNL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 0
+    },
+    {
+      "epitope": "KLFIRQEEV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.5,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 0
+    },
+    {
+      "epitope": "KQLPFFYYS",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 0
+    },
+    {
+      "epitope": "LACFVLAAV",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.8571428571428571,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 0
+    },
+    {
+      "epitope": "LLWNGPMAV",
+      "size": 2138,
+      "bucket": 11,
+      "position": 0.062046137720489725,
+      "auroc": 0.9865279135357262,
+      "n_pos": 2138,
+      "n_neg": 2138,
+      "seed": 0
+    },
+    {
+      "epitope": "LPRRSGAAGA",
+      "size": 2128,
+      "bucket": 11,
+      "position": 0.05528243550118894,
+      "auroc": 0.021154345567867036,
+      "n_pos": 2128,
+      "n_neg": 2128,
+      "seed": 0
+    },
+    {
+      "epitope": "PKYVKQNTLKLRT",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 1.0,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 0
+    },
+    {
+      "epitope": "RLNQLESKV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 0
+    },
+    {
+      "epitope": "RNVDENANANSAVKN",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 0
+    },
+    {
+      "epitope": "RTATKAYNV",
+      "size": 23,
+      "bucket": 4,
+      "position": 0.5235619560570131,
+      "auroc": 0.0,
+      "n_pos": 23,
+      "n_neg": 23,
+      "seed": 0
+    },
+    {
+      "epitope": "RYRIGNYKL",
+      "size": 34,
+      "bucket": 5,
+      "position": 0.0874628412503391,
+      "auroc": 0.02897923875432526,
+      "n_pos": 34,
+      "n_neg": 34,
+      "seed": 0
+    },
+    {
+      "epitope": "RYSIFFDYM",
+      "size": 9,
+      "bucket": 3,
+      "position": 0.16992500144231215,
+      "auroc": 0.0,
+      "n_pos": 9,
+      "n_neg": 9,
+      "seed": 0
+    },
+    {
+      "epitope": "SLVALGINAV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.7,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 0
+    },
+    {
+      "epitope": "SMMILSDDA",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.4166666666666667,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 0
+    },
+    {
+      "epitope": "TIVEVQPQL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 0
+    },
+    {
+      "epitope": "TLMNVITLV",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 0
+    },
+    {
+      "epitope": "TPGPGVRYPL",
+      "size": 69,
+      "bucket": 6,
+      "position": 0.10852445677816913,
+      "auroc": 0.0,
+      "n_pos": 69,
+      "n_neg": 69,
+      "seed": 0
+    },
+    {
+      "epitope": "VVVGAVGVGK",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.25,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 0
+    },
+    {
+      "epitope": "YLEGSVRVV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.5,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 0
+    },
+    {
+      "epitope": "YLFDESGEF",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.9285714285714286,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 0
+    },
+    {
+      "epitope": "YLKTNLFL",
+      "size": 15,
+      "bucket": 3,
+      "position": 0.9068905956085187,
+      "auroc": 1.0,
+      "n_pos": 15,
+      "n_neg": 15,
+      "seed": 0
+    },
+    {
+      "epitope": "AAFKRSCLK",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.2,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "AEVQIDRLI",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.8571428571428571,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "AIILASFSA",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "ALALLLLDR",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "ALDIEIATY",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.7222222222222222,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 1
+    },
+    {
+      "epitope": "ALKCKGFHV",
+      "size": 11,
+      "bucket": 3,
+      "position": 0.4594316186372973,
+      "auroc": 0.5826446280991735,
+      "n_pos": 11,
+      "n_neg": 11,
+      "seed": 1
+    },
+    {
+      "epitope": "ALSPVIPHI",
+      "size": 20,
+      "bucket": 4,
+      "position": 0.3219280948873626,
+      "auroc": 0.575,
+      "n_pos": 20,
+      "n_neg": 20,
+      "seed": 1
+    },
+    {
+      "epitope": "ALTAVAEEV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "ALTPVVVTL",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.6326530612244898,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "ALVPMVATV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.6875,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "AMFWSVPTV",
+      "size": 95,
+      "bucket": 6,
+      "position": 0.5698556083309478,
+      "auroc": 0.3473684210526316,
+      "n_pos": 95,
+      "n_neg": 95,
+      "seed": 1
+    },
+    {
+      "epitope": "APRITFGGL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "ATDALMTGF",
+      "size": 130,
+      "bucket": 7,
+      "position": 0.022367813028454364,
+      "auroc": 0.0,
+      "n_pos": 130,
+      "n_neg": 130,
+      "seed": 1
+    },
+    {
+      "epitope": "AVASKILGL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "CINGVCWTV",
+      "size": 385,
+      "bucket": 8,
+      "position": 0.5887146355822637,
+      "auroc": 0.9871074380165289,
+      "n_pos": 385,
+      "n_neg": 385,
+      "seed": 1
+    },
+    {
+      "epitope": "CLLGTYTQDV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.5,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "CLTPVYSFL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "DNVILLNKH",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "DQVILLNKH",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "DRFYKTLRAEQASQEV",
+      "size": 20,
+      "bucket": 4,
+      "position": 0.3219280948873626,
+      "auroc": 0.525,
+      "n_pos": 20,
+      "n_neg": 20,
+      "seed": 1
+    },
+    {
+      "epitope": "EAKQKGFVPF",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.1875,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 1
+    },
+    {
+      "epitope": "EEAAGIGILTVI",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "EEIEITTHF",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.2265625,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 1
+    },
+    {
+      "epitope": "ELTSMKYFV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.4,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "EPLPQGQLTAY",
+      "size": 39,
+      "bucket": 5,
+      "position": 0.2854022188622487,
+      "auroc": 0.27514792899408286,
+      "n_pos": 39,
+      "n_neg": 39,
+      "seed": 1
+    },
+    {
+      "epitope": "FEDLRLLSF",
+      "size": 43,
+      "bucket": 5,
+      "position": 0.4262647547020979,
+      "auroc": 0.4418604651162791,
+      "n_pos": 43,
+      "n_neg": 43,
+      "seed": 1
+    },
+    {
+      "epitope": "FEDLRVLSF",
+      "size": 45,
+      "bucket": 5,
+      "position": 0.4918530963296748,
+      "auroc": 0.4888888888888889,
+      "n_pos": 45,
+      "n_neg": 45,
+      "seed": 1
+    },
+    {
+      "epitope": "FITESKPSV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "FLAFVVFLL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.5,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "FLKEKGGL",
+      "size": 159,
+      "bucket": 7,
+      "position": 0.3128829552843557,
+      "auroc": 0.9874807167437997,
+      "n_pos": 159,
+      "n_neg": 159,
+      "seed": 1
+    },
+    {
+      "epitope": "FLKEMGGL",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 1.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "FLPFFSNVT",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.5,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "FLYALALLL",
+      "size": 126,
+      "bucket": 6,
+      "position": 0.9772799234999168,
+      "auroc": 0.9385865457294029,
+      "n_pos": 126,
+      "n_neg": 126,
+      "seed": 1
+    },
+    {
+      "epitope": "FMCVEYCPI",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.5,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "FNNFTVSFWLRVPKVSASHLE",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "FPLKLRGTA",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "FPQGEAREL",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 1
+    },
+    {
+      "epitope": "FPQPEQPFPWQP",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "FYGKTILWF",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.375,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "GIIAMSAFA",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "GLMWLSYFI",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.3,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "GLMWLSYFV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.4444444444444444,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "GLVEVEKGV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "GQVELGGGNAVEVCK",
+      "size": 21,
+      "bucket": 4,
+      "position": 0.3923174227787607,
+      "auroc": 0.5238095238095238,
+      "n_pos": 21,
+      "n_neg": 21,
+      "seed": 1
+    },
+    {
+      "epitope": "GTAFVQMPAHGLFPW",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.8571428571428571,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "HGAGNHAAGILTL",
+      "size": 70,
+      "bucket": 6,
+      "position": 0.12928301694496636,
+      "auroc": 0.0,
+      "n_pos": 70,
+      "n_neg": 70,
+      "seed": 1
+    },
+    {
+      "epitope": "HLKRNIVV",
+      "size": 23,
+      "bucket": 4,
+      "position": 0.5235619560570131,
+      "auroc": 0.6304347826086957,
+      "n_pos": 23,
+      "n_neg": 23,
+      "seed": 1
+    },
+    {
+      "epitope": "HLVEALYLV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "HLVPMVATV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.6875,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "HPKVSSEVHI",
+      "size": 54,
+      "bucket": 5,
+      "position": 0.7548875021634682,
+      "auroc": 0.7592592592592593,
+      "n_pos": 54,
+      "n_neg": 54,
+      "seed": 1
+    },
+    {
+      "epitope": "HTMLCMCCK",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.7142857142857143,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "IILVAVPHV",
+      "size": 12,
+      "bucket": 3,
+      "position": 0.5849625007211561,
+      "auroc": 0.4166666666666667,
+      "n_pos": 12,
+      "n_neg": 12,
+      "seed": 1
+    },
+    {
+      "epitope": "ILDQVPFSV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.5,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "ILKLQVFL",
+      "size": 15,
+      "bucket": 3,
+      "position": 0.9068905956085187,
+      "auroc": 1.0,
+      "n_pos": 15,
+      "n_neg": 15,
+      "seed": 1
+    },
+    {
+      "epitope": "ILLLDQALV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "ILSAHVATA",
+      "size": 9,
+      "bucket": 3,
+      "position": 0.16992500144231215,
+      "auroc": 0.3333333333333333,
+      "n_pos": 9,
+      "n_neg": 9,
+      "seed": 1
+    },
+    {
+      "epitope": "IMDQVPFEV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.5,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "IMDQVPFHV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6111111111111112,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "IMDQVPFSC",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.7222222222222222,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "IMDQVPFSH",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6111111111111112,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "IPRRNVATL",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "ISDYDYYRY",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "ISPRTLNAW",
+      "size": 55,
+      "bucket": 5,
+      "position": 0.7813597135246599,
+      "auroc": 0.8416528925619835,
+      "n_pos": 55,
+      "n_neg": 55,
+      "seed": 1
+    },
+    {
+      "epitope": "ITFDNLKTL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "KLFIRQEEV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.2,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "KLPDDFTGCV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "KLQVFLIVL",
+      "size": 14,
+      "bucket": 3,
+      "position": 0.8073549220576042,
+      "auroc": 0.8928571428571429,
+      "n_pos": 14,
+      "n_neg": 14,
+      "seed": 1
+    },
+    {
+      "epitope": "KLSYGIATV",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.1875,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 1
+    },
+    {
+      "epitope": "KLVALGINAV",
+      "size": 87,
+      "bucket": 6,
+      "position": 0.44294349584872794,
+      "auroc": 0.13509050072664816,
+      "n_pos": 87,
+      "n_neg": 87,
+      "seed": 1
+    },
+    {
+      "epitope": "KLVALGINNV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "KLVPMVATV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.625,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "KPRQKRTAT",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.5,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "LHCQERANELMRAMK",
+      "size": 23,
+      "bucket": 4,
+      "position": 0.5235619560570131,
+      "auroc": 0.6521739130434783,
+      "n_pos": 23,
+      "n_neg": 23,
+      "seed": 1
+    },
+    {
+      "epitope": "LLDDFVEII",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.7857142857142857,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "LLDFVRFMGV",
+      "size": 27,
+      "bucket": 4,
+      "position": 0.7548875021634682,
+      "auroc": 0.7880658436213992,
+      "n_pos": 27,
+      "n_neg": 27,
+      "seed": 1
+    },
+    {
+      "epitope": "LLEWLAMAV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "LLLDRLNQL",
+      "size": 1717,
+      "bucket": 10,
+      "position": 0.7456743240021346,
+      "auroc": 0.5434240621636592,
+      "n_pos": 1717,
+      "n_neg": 1717,
+      "seed": 1
+    },
+    {
+      "epitope": "LLLEWLAMA",
+      "size": 13,
+      "bucket": 3,
+      "position": 0.7004397181410922,
+      "auroc": 0.8846153846153846,
+      "n_pos": 13,
+      "n_neg": 13,
+      "seed": 1
+    },
+    {
+      "epitope": "LLLGIGILVL",
+      "size": 59,
+      "bucket": 5,
+      "position": 0.8826430493618416,
+      "auroc": 0.9833381212295318,
+      "n_pos": 59,
+      "n_neg": 59,
+      "seed": 1
+    },
+    {
+      "epitope": "LLPPLLEHL",
+      "size": 9,
+      "bucket": 3,
+      "position": 0.16992500144231215,
+      "auroc": 0.3888888888888889,
+      "n_pos": 9,
+      "n_neg": 9,
+      "seed": 1
+    },
+    {
+      "epitope": "LLQTGIHVRVSQPSL",
+      "size": 306,
+      "bucket": 8,
+      "position": 0.25738784269265125,
+      "auroc": 0.0065145884061685675,
+      "n_pos": 306,
+      "n_neg": 306,
+      "seed": 1
+    },
+    {
+      "epitope": "LPDDFMGCV",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.5,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 1
+    },
+    {
+      "epitope": "LPKEITVAT",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.16666666666666666,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 1
+    },
+    {
+      "epitope": "LPKGIMMNV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.3,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "LTNDDTSRY",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "MALWMRLL",
+      "size": 20,
+      "bucket": 4,
+      "position": 0.3219280948873626,
+      "auroc": 0.33375,
+      "n_pos": 20,
+      "n_neg": 20,
+      "seed": 1
+    },
+    {
+      "epitope": "MGILKLQVF",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "MHVSFVMAYPEMLAA",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "MLDLQPETT",
+      "size": 14,
+      "bucket": 3,
+      "position": 0.8073549220576042,
+      "auroc": 0.8571428571428571,
+      "n_pos": 14,
+      "n_neg": 14,
+      "seed": 1
+    },
+    {
+      "epitope": "MLNIPSINV",
+      "size": 88,
+      "bucket": 6,
+      "position": 0.4594316186372973,
+      "auroc": 0.24728822314049587,
+      "n_pos": 88,
+      "n_neg": 88,
+      "seed": 1
+    },
+    {
+      "epitope": "MPYFFTLLL",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.171875,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 1
+    },
+    {
+      "epitope": "MTEYKLVVVGAVGVGKSALTIQLI",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "NEGVKAAW",
+      "size": 117,
+      "bucket": 6,
+      "position": 0.8703647195834048,
+      "auroc": 0.7965885017167068,
+      "n_pos": 117,
+      "n_neg": 117,
+      "seed": 1
+    },
+    {
+      "epitope": "NFIRMVISNPAAT",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.3,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "NLIFKWIL",
+      "size": 19,
+      "bucket": 4,
+      "position": 0.2479275134435852,
+      "auroc": 0.25069252077562326,
+      "n_pos": 19,
+      "n_neg": 19,
+      "seed": 1
+    },
+    {
+      "epitope": "NLIPMVATV",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.7777777777777778,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 1
+    },
+    {
+      "epitope": "NLLKDCPAV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "NLVCMVATV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6111111111111112,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "NLVGMVATV",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.6805555555555556,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 1
+    },
+    {
+      "epitope": "NLVPMCATV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.6875,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "NLVPMIATV",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.7040816326530612,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "NLVPMVAIV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.7222222222222222,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "NLVPMVATI",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.8472222222222222,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 1
+    },
+    {
+      "epitope": "NMLSTVLGV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "NMYAMMIARFKMFPEVKEKG",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "NVFAFPFTI",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.7448979591836735,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "NVVPMVATV",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.6632653061224489,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "NYNYLYRLF",
+      "size": 709,
+      "bucket": 9,
+      "position": 0.46964181723951626,
+      "auroc": 0.9887881181106905,
+      "n_pos": 709,
+      "n_neg": 709,
+      "seed": 1
+    },
+    {
+      "epitope": "PLTFGWCYKL",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.7142857142857143,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "PQPELPYPQPE",
+      "size": 37,
+      "bucket": 5,
+      "position": 0.20945336562895012,
+      "auroc": 0.13513513513513514,
+      "n_pos": 37,
+      "n_neg": 37,
+      "seed": 1
+    },
+    {
+      "epitope": "PQQPFPQPEQPFP",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.7857142857142857,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "QASRTVIHSADITFQ",
+      "size": 10,
+      "bucket": 3,
+      "position": 0.3219280948873622,
+      "auroc": 0.495,
+      "n_pos": 10,
+      "n_neg": 10,
+      "seed": 1
+    },
+    {
+      "epitope": "QLVPMVATV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.76,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "QPGQTFSVL",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "QYIKWPWYI",
+      "size": 519,
+      "bucket": 9,
+      "position": 0.01959072835788156,
+      "auroc": 0.003343097181848894,
+      "n_pos": 519,
+      "n_neg": 519,
+      "seed": 1
+    },
+    {
+      "epitope": "RAKFKQLL",
+      "size": 1448,
+      "bucket": 10,
+      "position": 0.49984588708320565,
+      "auroc": 0.6701418035163762,
+      "n_pos": 1448,
+      "n_neg": 1448,
+      "seed": 1
+    },
+    {
+      "epitope": "RAMPNMLRI",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.3,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "RISNCVADYSVLYNS",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.8571428571428571,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "RLARLALVL",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.5714285714285714,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 1
+    },
+    {
+      "epitope": "RLITGRLQSL",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 1
+    },
+    {
+      "epitope": "RLRPGGKKK",
+      "size": 33,
+      "bucket": 5,
+      "position": 0.04439411935845339,
+      "auroc": 0.06060606060606061,
+      "n_pos": 33,
+      "n_neg": 33,
+      "seed": 1
+    },
+    {
+      "epitope": "RPIIRPATL",
+      "size": 109,
+      "bucket": 6,
+      "position": 0.768184324776926,
+      "auroc": 0.7064220183486238,
+      "n_pos": 109,
+      "n_neg": 109,
+      "seed": 1
+    },
+    {
+      "epitope": "RPRGEVRFL",
+      "size": 17,
+      "bucket": 4,
+      "position": 0.0874628412503391,
+      "auroc": 0.029411764705882353,
+      "n_pos": 17,
+      "n_neg": 17,
+      "seed": 1
+    },
+    {
+      "epitope": "RTATKAYNV",
+      "size": 23,
+      "bucket": 4,
+      "position": 0.5235619560570131,
+      "auroc": 0.6521739130434783,
+      "n_pos": 23,
+      "n_neg": 23,
+      "seed": 1
+    },
+    {
+      "epitope": "RYPLTFGWCF",
+      "size": 10,
+      "bucket": 3,
+      "position": 0.3219280948873622,
+      "auroc": 0.45,
+      "n_pos": 10,
+      "n_neg": 10,
+      "seed": 1
+    },
+    {
+      "epitope": "SLFFSAQPFEITAST",
+      "size": 104,
+      "bucket": 6,
+      "position": 0.7004397181410917,
+      "auroc": 0.5673076923076923,
+      "n_pos": 104,
+      "n_neg": 104,
+      "seed": 1
+    },
+    {
+      "epitope": "SLIYSTAAL",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.2,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "SLLRSLENV",
+      "size": 13,
+      "bucket": 3,
+      "position": 0.7004397181410922,
+      "auroc": 0.7159763313609467,
+      "n_pos": 13,
+      "n_neg": 13,
+      "seed": 1
+    },
+    {
+      "epitope": "SLNYSGVKEL",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "SLPGVFCGV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "SMMILSDDA",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.16666666666666666,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 1
+    },
+    {
+      "epitope": "SMWALVISV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.3,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "SPRWYFYYL",
+      "size": 626,
+      "bucket": 9,
+      "position": 0.29001884693261815,
+      "auroc": 0.4197156753666976,
+      "n_pos": 626,
+      "n_neg": 626,
+      "seed": 1
+    },
+    {
+      "epitope": "STNVGSNTY",
+      "size": 27,
+      "bucket": 4,
+      "position": 0.7548875021634682,
+      "auroc": 0.9279835390946503,
+      "n_pos": 27,
+      "n_neg": 27,
+      "seed": 1
+    },
+    {
+      "epitope": "SWMESEFRV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.2,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "SYLDLPWYL",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.4861111111111111,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 1
+    },
+    {
+      "epitope": "TAFTIPSI",
+      "size": 17,
+      "bucket": 4,
+      "position": 0.0874628412503391,
+      "auroc": 0.0,
+      "n_pos": 17,
+      "n_neg": 17,
+      "seed": 1
+    },
+    {
+      "epitope": "TALALLLLD",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.0,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "TCDGTTFTY",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "TLMNVITLV",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.75,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 1
+    },
+    {
+      "epitope": "TLVPMVATV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.82,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "TPAFDKSAF",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "TYHWLLLTI",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "VFLVLWPLV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "VLNDILSRL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "VLSTFISAA",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.5,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 1
+    },
+    {
+      "epitope": "VMATRRNVL",
+      "size": 1181,
+      "bucket": 10,
+      "position": 0.20579324939715704,
+      "auroc": 0.013116584131618248,
+      "n_pos": 1181,
+      "n_neg": 1181,
+      "seed": 1
+    },
+    {
+      "epitope": "VMYASAVVL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "VVVGAVGVGK",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "WLVPMVATV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.71875,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 1
+    },
+    {
+      "epitope": "WPVTLACFV",
+      "size": 21,
+      "bucket": 4,
+      "position": 0.3923174227787607,
+      "auroc": 0.4523809523809524,
+      "n_pos": 21,
+      "n_neg": 21,
+      "seed": 1
+    },
+    {
+      "epitope": "WVLALFDEV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "YERMCNIL",
+      "size": 18,
+      "bucket": 4,
+      "position": 0.16992500144231215,
+      "auroc": 0.0,
+      "n_pos": 18,
+      "n_neg": 18,
+      "seed": 1
+    },
+    {
+      "epitope": "YIDIGNYTV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "YLDAYNMMI",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "YLEPGPVTV",
+      "size": 32,
+      "bucket": 5,
+      "position": 0.0,
+      "auroc": 0.060546875,
+      "n_pos": 32,
+      "n_neg": 32,
+      "seed": 1
+    },
+    {
+      "epitope": "YLNTLTLAV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 1
+    },
+    {
+      "epitope": "YMPYFFTLL",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.1875,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 1
+    },
+    {
+      "epitope": "AAGIGILTV",
+      "size": 10,
+      "bucket": 3,
+      "position": 0.3219280948873622,
+      "auroc": 0.465,
+      "n_pos": 10,
+      "n_neg": 10,
+      "seed": 2
+    },
+    {
+      "epitope": "AALALLLLDRLNQLE",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "AIMDKNIIL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "ALDIEIATY",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.5,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 2
+    },
+    {
+      "epitope": "ALGIGILTV",
+      "size": 52,
+      "bucket": 5,
+      "position": 0.7004397181410917,
+      "auroc": 0.7588757396449705,
+      "n_pos": 52,
+      "n_neg": 52,
+      "seed": 2
+    },
+    {
+      "epitope": "AMFWSVPTV",
+      "size": 95,
+      "bucket": 6,
+      "position": 0.5698556083309478,
+      "auroc": 0.24210526315789474,
+      "n_pos": 95,
+      "n_neg": 95,
+      "seed": 2
+    },
+    {
+      "epitope": "APRGPHGGAASGL",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.3,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "ARMILMTHF",
+      "size": 48,
+      "bucket": 5,
+      "position": 0.5849625007211561,
+      "auroc": 0.724609375,
+      "n_pos": 48,
+      "n_neg": 48,
+      "seed": 2
+    },
+    {
+      "epitope": "ASGNHAAGILTM",
+      "size": 51,
+      "bucket": 5,
+      "position": 0.6724253419714952,
+      "auroc": 0.6361014994232987,
+      "n_pos": 51,
+      "n_neg": 51,
+      "seed": 2
+    },
+    {
+      "epitope": "CLGGLLTMV",
+      "size": 132,
+      "bucket": 7,
+      "position": 0.04439411935845339,
+      "auroc": 0.037247474747474744,
+      "n_pos": 132,
+      "n_neg": 132,
+      "seed": 2
+    },
+    {
+      "epitope": "CLLGTYTQDV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.3333333333333333,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "CLLWSFQTSA",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.8163265306122449,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 2
+    },
+    {
+      "epitope": "CPLSKILL",
+      "size": 19,
+      "bucket": 4,
+      "position": 0.2479275134435852,
+      "auroc": 0.21052631578947367,
+      "n_pos": 19,
+      "n_neg": 19,
+      "seed": 2
+    },
+    {
+      "epitope": "DPFRLLQNSQVFS",
+      "size": 103,
+      "bucket": 6,
+      "position": 0.6865005271832185,
+      "auroc": 0.38702988029031954,
+      "n_pos": 103,
+      "n_neg": 103,
+      "seed": 2
+    },
+    {
+      "epitope": "EIYKRWII",
+      "size": 159,
+      "bucket": 7,
+      "position": 0.3128829552843557,
+      "auroc": 0.19259522961908151,
+      "n_pos": 159,
+      "n_neg": 159,
+      "seed": 2
+    },
+    {
+      "epitope": "ELKRKMIYM",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.4,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "FLAHIQWMV",
+      "size": 11,
+      "bucket": 3,
+      "position": 0.4594316186372973,
+      "auroc": 0.7066115702479339,
+      "n_pos": 11,
+      "n_neg": 11,
+      "seed": 2
+    },
+    {
+      "epitope": "FLKETGGL",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.25,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "FLNGSCGSV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.48,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "FLPGVYSVI",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.0625,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 2
+    },
+    {
+      "epitope": "FLRGRAYGL",
+      "size": 178,
+      "bucket": 7,
+      "position": 0.47573343096639764,
+      "auroc": 0.39480494887009215,
+      "n_pos": 178,
+      "n_neg": 178,
+      "seed": 2
+    },
+    {
+      "epitope": "FLVLLPLVS",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.26,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "FLYNPLTRV",
+      "size": 16,
+      "bucket": 4,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 16,
+      "n_neg": 16,
+      "seed": 2
+    },
+    {
+      "epitope": "FRCPRRFCF",
+      "size": 10,
+      "bucket": 3,
+      "position": 0.3219280948873622,
+      "auroc": 0.25,
+      "n_pos": 10,
+      "n_neg": 10,
+      "seed": 2
+    },
+    {
+      "epitope": "FSASTSAFV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "FTSDYYQLY",
+      "size": 45,
+      "bucket": 5,
+      "position": 0.4918530963296748,
+      "auroc": 0.4893827160493827,
+      "n_pos": 45,
+      "n_neg": 45,
+      "seed": 2
+    },
+    {
+      "epitope": "FYGKTILWF",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "GERQNATEIRASVGK",
+      "size": 113,
+      "bucket": 6,
+      "position": 0.8201789624151878,
+      "auroc": 0.6283185840707964,
+      "n_pos": 113,
+      "n_neg": 113,
+      "seed": 2
+    },
+    {
+      "epitope": "GLMWLSYFI",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.4,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "GLVEVEKGV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "GNHAAGILTLGKRRS",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.7222222222222222,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "GQMWLLAPR",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "GTDLEGNFY",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.5,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "HARIKLKV",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.7857142857142857,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 2
+    },
+    {
+      "epitope": "HIKEYLNKIQNSLST",
+      "size": 41,
+      "bucket": 5,
+      "position": 0.3575520046180838,
+      "auroc": 0.2073170731707317,
+      "n_pos": 41,
+      "n_neg": 41,
+      "seed": 2
+    },
+    {
+      "epitope": "HLLLVAAGL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "HPKVSSEVHI",
+      "size": 54,
+      "bucket": 5,
+      "position": 0.7548875021634682,
+      "auroc": 0.9629629629629629,
+      "n_pos": 54,
+      "n_neg": 54,
+      "seed": 2
+    },
+    {
+      "epitope": "HTQGYFPD",
+      "size": 57,
+      "bucket": 5,
+      "position": 0.8328900141647413,
+      "auroc": 0.8594952293013235,
+      "n_pos": 57,
+      "n_neg": 57,
+      "seed": 2
+    },
+    {
+      "epitope": "IILVAVPHV",
+      "size": 12,
+      "bucket": 3,
+      "position": 0.5849625007211561,
+      "auroc": 0.5833333333333334,
+      "n_pos": 12,
+      "n_neg": 12,
+      "seed": 2
+    },
+    {
+      "epitope": "ILFTRFFYV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.42,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "IMDQVPFGV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.5,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "IMDQVPFNV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.7222222222222222,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "IMDQVPFSA",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6111111111111112,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "IMDQVPFSH",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6111111111111112,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "IMLCCMTSC",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.0625,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 2
+    },
+    {
+      "epitope": "IVLPEDKSW",
+      "size": 22,
+      "bucket": 4,
+      "position": 0.4594316186372973,
+      "auroc": 0.6363636363636364,
+      "n_pos": 22,
+      "n_neg": 22,
+      "seed": 2
+    },
+    {
+      "epitope": "KAFSPEVIPMF",
+      "size": 246,
+      "bucket": 7,
+      "position": 0.9425145053392399,
+      "auroc": 0.9798813536915857,
+      "n_pos": 246,
+      "n_neg": 246,
+      "seed": 2
+    },
+    {
+      "epitope": "KASEKIFYV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "KIVALGINAV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.7,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "KLFEFLVYGV",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.6836734693877551,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 2
+    },
+    {
+      "epitope": "KLKDCVMYA",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 2
+    },
+    {
+      "epitope": "KLPDDFMGC",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "KPVPEVKIL",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.375,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "KQIYKTPPI",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.8571428571428571,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 2
+    },
+    {
+      "epitope": "KRKGGIGGY",
+      "size": 44,
+      "bucket": 5,
+      "position": 0.4594316186372973,
+      "auroc": 0.2889979338842975,
+      "n_pos": 44,
+      "n_neg": 44,
+      "seed": 2
+    },
+    {
+      "epitope": "KWPWYIWLG",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "LACFVLAAV",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.9285714285714286,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 2
+    },
+    {
+      "epitope": "LITGRLQSL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "LLAGIGTVPI",
+      "size": 885,
+      "bucket": 9,
+      "position": 0.7895336449703603,
+      "auroc": 0.9887644035877302,
+      "n_pos": 885,
+      "n_neg": 885,
+      "seed": 2
+    },
+    {
+      "epitope": "LLEFYLAMPFATP",
+      "size": 19,
+      "bucket": 4,
+      "position": 0.2479275134435852,
+      "auroc": 0.34210526315789475,
+      "n_pos": 19,
+      "n_neg": 19,
+      "seed": 2
+    },
+    {
+      "epitope": "LLMPILTLT",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "LLNKHIDAY",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.0625,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 2
+    },
+    {
+      "epitope": "LLPPLLEHL",
+      "size": 9,
+      "bucket": 3,
+      "position": 0.16992500144231215,
+      "auroc": 0.1111111111111111,
+      "n_pos": 9,
+      "n_neg": 9,
+      "seed": 2
+    },
+    {
+      "epitope": "LLQTGIHVRVSQPSL",
+      "size": 306,
+      "bucket": 8,
+      "position": 0.25738784269265125,
+      "auroc": 0.0065145884061685675,
+      "n_pos": 306,
+      "n_neg": 306,
+      "seed": 2
+    },
+    {
+      "epitope": "LPDDFTGCV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "LPEPLPQGQLTAY",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.6,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "LPFDKPTIM",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "LPGCDGGSL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "LQPFPQPELPYPQPQ",
+      "size": 23,
+      "bucket": 4,
+      "position": 0.5235619560570131,
+      "auroc": 0.8742911153119093,
+      "n_pos": 23,
+      "n_neg": 23,
+      "seed": 2
+    },
+    {
+      "epitope": "LQVGQVELGGGPGAGSLQ",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "LSFKELLVY",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.4,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "LTDEQRAAALEKAAA",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "LVVDFSQFSR",
+      "size": 1847,
+      "bucket": 10,
+      "position": 0.8509681509824389,
+      "auroc": 0.002977801840822956,
+      "n_pos": 1847,
+      "n_neg": 11,
+      "seed": 2
+    },
+    {
+      "epitope": "MHVSFVMAYPEMLAA",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "MLAKALRKV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.44,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "MLDLQPETT",
+      "size": 14,
+      "bucket": 3,
+      "position": 0.8073549220576042,
+      "auroc": 0.9642857142857143,
+      "n_pos": 14,
+      "n_neg": 14,
+      "seed": 2
+    },
+    {
+      "epitope": "MLDMYSVML",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.8,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "NLIFKWIL",
+      "size": 19,
+      "bucket": 4,
+      "position": 0.2479275134435852,
+      "auroc": 0.15789473684210525,
+      "n_pos": 19,
+      "n_neg": 19,
+      "seed": 2
+    },
+    {
+      "epitope": "NLSALGIFST",
+      "size": 183,
+      "bucket": 7,
+      "position": 0.5156998382840428,
+      "auroc": 0.6437039027740452,
+      "n_pos": 183,
+      "n_neg": 183,
+      "seed": 2
+    },
+    {
+      "epitope": "NYNYLYRLF",
+      "size": 709,
+      "bucket": 9,
+      "position": 0.46964181723951626,
+      "auroc": 0.40446326795721343,
+      "n_pos": 709,
+      "n_neg": 709,
+      "seed": 2
+    },
+    {
+      "epitope": "PLTFGWCYKL",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 1.0,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 2
+    },
+    {
+      "epitope": "PQPELPYPQPQL",
+      "size": 12,
+      "bucket": 3,
+      "position": 0.5849625007211561,
+      "auroc": 0.5798611111111112,
+      "n_pos": 12,
+      "n_neg": 12,
+      "seed": 2
+    },
+    {
+      "epitope": "PSDKHIKEYLNKIQN",
+      "size": 41,
+      "bucket": 5,
+      "position": 0.3575520046180838,
+      "auroc": 0.10975609756097561,
+      "n_pos": 41,
+      "n_neg": 41,
+      "seed": 2
+    },
+    {
+      "epitope": "PTEKGANEY",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.8571428571428571,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 2
+    },
+    {
+      "epitope": "QAKWRLQTL",
+      "size": 118,
+      "bucket": 6,
+      "position": 0.8826430493618416,
+      "auroc": 0.75,
+      "n_pos": 118,
+      "n_neg": 118,
+      "seed": 2
+    },
+    {
+      "epitope": "QARQMVQAMRTIGTHP",
+      "size": 124,
+      "bucket": 6,
+      "position": 0.9541963103868749,
+      "auroc": 0.9840335587929241,
+      "n_pos": 124,
+      "n_neg": 124,
+      "seed": 2
+    },
+    {
+      "epitope": "QPRAPIRPI",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.4,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "RAMPNMLRI",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.58,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "RAQAPPPSW",
+      "size": 11,
+      "bucket": 3,
+      "position": 0.4594316186372973,
+      "auroc": 0.5909090909090909,
+      "n_pos": 11,
+      "n_neg": 11,
+      "seed": 2
+    },
+    {
+      "epitope": "RLITGRLQSL",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.171875,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 2
+    },
+    {
+      "epitope": "RLNQLESKV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "RLRPGGKKK",
+      "size": 33,
+      "bucket": 5,
+      "position": 0.04439411935845339,
+      "auroc": 0.08723599632690542,
+      "n_pos": 33,
+      "n_neg": 33,
+      "seed": 2
+    },
+    {
+      "epitope": "RLSDFSEQL",
+      "size": 12,
+      "bucket": 3,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 12,
+      "n_neg": 12,
+      "seed": 2
+    },
+    {
+      "epitope": "RTIKVFTTV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "RTLNAWVKV",
+      "size": 46,
+      "bucket": 5,
+      "position": 0.5235619560570131,
+      "auroc": 0.6304347826086957,
+      "n_pos": 46,
+      "n_neg": 46,
+      "seed": 2
+    },
+    {
+      "epitope": "RVKEKYQHL",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "RYPLTFGWCF",
+      "size": 10,
+      "bucket": 3,
+      "position": 0.3219280948873622,
+      "auroc": 0.3,
+      "n_pos": 10,
+      "n_neg": 10,
+      "seed": 2
+    },
+    {
+      "epitope": "RYSIFFDYM",
+      "size": 9,
+      "bucket": 3,
+      "position": 0.16992500144231215,
+      "auroc": 0.2222222222222222,
+      "n_pos": 9,
+      "n_neg": 9,
+      "seed": 2
+    },
+    {
+      "epitope": "SHLVEALYLVCGERG",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.3,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "SLNYSGVKEL",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.0,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "SLPRLFPLL",
+      "size": 12,
+      "bucket": 3,
+      "position": 0.5849625007211561,
+      "auroc": 0.7083333333333334,
+      "n_pos": 12,
+      "n_neg": 12,
+      "seed": 2
+    },
+    {
+      "epitope": "SPRWYFYYL",
+      "size": 626,
+      "bucket": 9,
+      "position": 0.29001884693261815,
+      "auroc": 0.0043291755555328725,
+      "n_pos": 626,
+      "n_neg": 626,
+      "seed": 2
+    },
+    {
+      "epitope": "STRQALRPRADGPVG",
+      "size": 10,
+      "bucket": 3,
+      "position": 0.3219280948873622,
+      "auroc": 0.3,
+      "n_pos": 10,
+      "n_neg": 10,
+      "seed": 2
+    },
+    {
+      "epitope": "SVLYYQNNV",
+      "size": 8,
+      "bucket": 3,
+      "position": 0.0,
+      "auroc": 0.125,
+      "n_pos": 8,
+      "n_neg": 8,
+      "seed": 2
+    },
+    {
+      "epitope": "SYLDLPWYL",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 2
+    },
+    {
+      "epitope": "TALALLLLD",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.6,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "TLKNTVCTV",
+      "size": 5,
+      "bucket": 2,
+      "position": 0.3219280948873622,
+      "auroc": 0.3,
+      "n_pos": 5,
+      "n_neg": 5,
+      "seed": 2
+    },
+    {
+      "epitope": "TLMNVLTLV",
+      "size": 13,
+      "bucket": 3,
+      "position": 0.7004397181410922,
+      "auroc": 0.7692307692307693,
+      "n_pos": 13,
+      "n_neg": 13,
+      "seed": 2
+    },
+    {
+      "epitope": "TLWCSPIKV",
+      "size": 10,
+      "bucket": 3,
+      "position": 0.3219280948873622,
+      "auroc": 0.365,
+      "n_pos": 10,
+      "n_neg": 10,
+      "seed": 2
+    },
+    {
+      "epitope": "TPGPGVRYPL",
+      "size": 69,
+      "bucket": 6,
+      "position": 0.10852445677816913,
+      "auroc": 0.0,
+      "n_pos": 69,
+      "n_neg": 69,
+      "seed": 2
+    },
+    {
+      "epitope": "VAANIVLTV",
+      "size": 48,
+      "bucket": 5,
+      "position": 0.5849625007211561,
+      "auroc": 0.6041666666666666,
+      "n_pos": 48,
+      "n_neg": 48,
+      "seed": 2
+    },
+    {
+      "epitope": "VGGNYNYLYRLFRKSNLKP",
+      "size": 10,
+      "bucket": 3,
+      "position": 0.3219280948873622,
+      "auroc": 0.65,
+      "n_pos": 10,
+      "n_neg": 10,
+      "seed": 2
+    },
+    {
+      "epitope": "VISNDVCAQV",
+      "size": 362,
+      "bucket": 8,
+      "position": 0.49984588708320565,
+      "auroc": 0.9835627728091328,
+      "n_pos": 362,
+      "n_neg": 362,
+      "seed": 2
+    },
+    {
+      "epitope": "VMNILLQYV",
+      "size": 24,
+      "bucket": 4,
+      "position": 0.5849625007211561,
+      "auroc": 1.0,
+      "n_pos": 24,
+      "n_neg": 24,
+      "seed": 2
+    },
+    {
+      "epitope": "VVVGADGVGK",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.8571428571428571,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 2
+    },
+    {
+      "epitope": "VYGIRLEHF",
+      "size": 75,
+      "bucket": 6,
+      "position": 0.22881869049588044,
+      "auroc": 0.10533333333333333,
+      "n_pos": 75,
+      "n_neg": 75,
+      "seed": 2
+    },
+    {
+      "epitope": "VYIGDPAQL",
+      "size": 15,
+      "bucket": 3,
+      "position": 0.9068905956085187,
+      "auroc": 0.9666666666666667,
+      "n_pos": 15,
+      "n_neg": 15,
+      "seed": 2
+    },
+    {
+      "epitope": "WLPTGTLLV",
+      "size": 4,
+      "bucket": 2,
+      "position": 0.0,
+      "auroc": 0.3125,
+      "n_pos": 4,
+      "n_neg": 4,
+      "seed": 2
+    },
+    {
+      "epitope": "WPWYIWLGF",
+      "size": 14,
+      "bucket": 3,
+      "position": 0.8073549220576042,
+      "auroc": 0.8647959183673469,
+      "n_pos": 14,
+      "n_neg": 14,
+      "seed": 2
+    },
+    {
+      "epitope": "WVLALFDEV",
+      "size": 3,
+      "bucket": 1,
+      "position": 0.5849625007211561,
+      "auroc": 0.8333333333333334,
+      "n_pos": 3,
+      "n_neg": 3,
+      "seed": 2
+    },
+    {
+      "epitope": "YAKWKLCSA",
+      "size": 41,
+      "bucket": 5,
+      "position": 0.3575520046180838,
+      "auroc": 0.22159428911362283,
+      "n_pos": 41,
+      "n_neg": 41,
+      "seed": 2
+    },
+    {
+      "epitope": "YLEPGPVTV",
+      "size": 32,
+      "bucket": 5,
+      "position": 0.0,
+      "auroc": 0.08740234375,
+      "n_pos": 32,
+      "n_neg": 32,
+      "seed": 2
+    },
+    {
+      "epitope": "YLGGMSYYC",
+      "size": 6,
+      "bucket": 2,
+      "position": 0.5849625007211561,
+      "auroc": 0.6666666666666666,
+      "n_pos": 6,
+      "n_neg": 6,
+      "seed": 2
+    },
+    {
+      "epitope": "YLKTNLFL",
+      "size": 15,
+      "bucket": 3,
+      "position": 0.9068905956085187,
+      "auroc": 0.9022222222222223,
+      "n_pos": 15,
+      "n_neg": 15,
+      "seed": 2
+    },
+    {
+      "epitope": "YLLLRVLNI",
+      "size": 7,
+      "bucket": 2,
+      "position": 0.8073549220576042,
+      "auroc": 0.7142857142857143,
+      "n_pos": 7,
+      "n_neg": 7,
+      "seed": 2
+    }
+  ]
+}

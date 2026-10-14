@@ -1,0 +1,107 @@
+{
+  "seed0": {
+    "seed": 0,
+    "train_current": {
+      "label": "current",
+      "n_epitopes": 453,
+      "home_max_macro": 0.0996,
+      "home_max_pooled": 0.5119,
+      "median_gap": -3724.8,
+      "positive_rate": 0.5
+    },
+    "train_matched": {
+      "label": "matched",
+      "n_epitopes": 453,
+      "home_max_macro": 0.4643,
+      "home_max_pooled": 0.5054,
+      "median_gap": -0.2,
+      "positive_rate": 0.5
+    },
+    "test_current": {
+      "label": "current",
+      "n_epitopes": 130,
+      "home_max_macro": 0.095,
+      "home_max_pooled": 0.5348,
+      "median_gap": -2121.8,
+      "positive_rate": 0.5
+    },
+    "test_matched": {
+      "label": "matched",
+      "n_epitopes": 130,
+      "home_max_macro": 0.4779,
+      "home_max_pooled": 0.5593,
+      "median_gap": -0.0,
+      "positive_rate": 0.5
+    }
+  },
+  "seed1": {
+    "seed": 1,
+    "train_current": {
+      "label": "current",
+      "n_epitopes": 481,
+      "home_max_macro": 0.1024,
+      "home_max_pooled": 0.514,
+      "median_gap": -3640.9,
+      "positive_rate": 0.5
+    },
+    "train_matched": {
+      "label": "matched",
+      "n_epitopes": 481,
+      "home_max_macro": 0.4667,
+      "home_max_pooled": 0.5062,
+      "median_gap": 0.0,
+      "positive_rate": 0.5
+    },
+    "test_current": {
+      "label": "current",
+      "n_epitopes": 91,
+      "home_max_macro": 0.0701,
+      "home_max_pooled": 0.5372,
+      "median_gap": -3124.0,
+      "positive_rate": 0.5
+    },
+    "test_matched": {
+      "label": "matched",
+      "n_epitopes": 91,
+      "home_max_macro": 0.4884,
+      "home_max_pooled": 0.5885,
+      "median_gap": -0.5,
+      "positive_rate": 0.5
+    }
+  },
+  "seed2": {
+    "seed": 2,
+    "train_current": {
+      "label": "current",
+      "n_epitopes": 393,
+      "home_max_macro": 0.104,
+      "home_max_pooled": 0.5134,
+      "median_gap": -4180.1,
+      "positive_rate": 0.5
+    },
+    "train_matched": {
+      "label": "matched",
+      "n_epitopes": 393,
+      "home_max_macro": 0.4624,
+      "home_max_pooled": 0.5027,
+      "median_gap": -0.5,
+      "positive_rate": 0.5
+    },
+    "test_current": {
+      "label": "current",
+      "n_epitopes": 152,
+      "home_max_macro": 0.0861,
+      "home_max_pooled": 0.5429,
+      "median_gap": -2649.0,
+      "positive_rate": 0.5
+    },
+    "test_matched": {
+      "label": "matched",
+      "n_epitopes": 152,
+      "home_max_macro": 0.4784,
+      "home_max_pooled": 0.5567,
+      "median_gap": -1.0,
+      "positive_rate": 0.5
+    }
+  }
+}

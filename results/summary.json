@@ -1,0 +1,44 @@
+{
+  "full": {
+    "mode": "full",
+    "test_auroc": 0.745,
+    "macro_auroc_per_epitope": 0.7529,
+    "n_epitopes_in_macro": 56,
+    "best_val_auroc": 0.7443,
+    "n_parameters": 52929,
+    "n_train": 89183,
+    "n_test": 18313,
+    "epochs": 12,
+    "seed": 0,
+    "runtime_sec": 46.9
+  },
+  "tcr_only": {
+    "mode": "tcr_only",
+    "test_auroc": 0.7377,
+    "macro_auroc_per_epitope": 0.7501,
+    "n_epitopes_in_macro": 56,
+    "best_val_auroc": 0.7354,
+    "n_parameters": 52929,
+    "n_train": 89183,
+    "n_test": 18313,
+    "epochs": 12,
+    "seed": 0,
+    "runtime_sec": 49.5
+  },
+  "epi_only": {
+    "mode": "epi_only",
+    "test_auroc": 0.4919,
+    "macro_auroc_per_epitope": 0.5,
+    "n_epitopes_in_macro": 56,
+    "best_val_auroc": 0.5,
+    "n_parameters": 52929,
+    "n_train": 89183,
+    "n_test": 18313,
+    "epochs": 12,
+    "seed": 0,
+    "runtime_sec": 43.1
+  },
+  "epitope_contribution_auroc": 0.0073,
+  "epitope_contribution_macro": 0.0028,
+  "provenance_floor": 0.7115
+}

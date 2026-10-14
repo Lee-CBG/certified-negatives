@@ -1,0 +1,101 @@
+{
+  "seed0": {
+    "seed": 0,
+    "test": {
+      "n_neg": 18559,
+      "n_fallback": 13369,
+      "fallback_frac": 0.7204,
+      "fallback_down": 13369,
+      "fallback_up": 0,
+      "fallback_mean_shift": -2.0,
+      "all": {
+        "macro": 0.604404416803208,
+        "sd": 0.39770447400740777,
+        "n_epitopes": 41,
+        "median_gap": 0.6666666666666643
+      },
+      "same_bucket": {
+        "macro": 0.5365880311123293,
+        "sd": 0.3922455654273923,
+        "n_epitopes": 35,
+        "median_gap": 0.3333333333333335
+      },
+      "fallback": {
+        "macro": 1.0,
+        "sd": 0.0,
+        "n_epitopes": 6,
+        "median_gap": 11209.0
+      },
+      "build_counts": {
+        "fallbacks": 13369,
+        "misses": 0
+      }
+    }
+  },
+  "seed1": {
+    "seed": 1,
+    "test": {
+      "n_neg": 16197,
+      "n_fallback": 6630,
+      "fallback_frac": 0.4093,
+      "fallback_down": 6630,
+      "fallback_up": 0,
+      "fallback_mean_shift": -2.0,
+      "all": {
+        "macro": 0.5272040376057703,
+        "sd": 0.30531493191034925,
+        "n_epitopes": 159,
+        "median_gap": 0.3333333333333335
+      },
+      "same_bucket": {
+        "macro": 0.5242116580969461,
+        "sd": 0.3039464602351135,
+        "n_epitopes": 158,
+        "median_gap": 0.3333333333333335
+      },
+      "fallback": {
+        "macro": 1.0,
+        "sd": 0.0,
+        "n_epitopes": 1,
+        "median_gap": 5238.101523608388
+      },
+      "build_counts": {
+        "fallbacks": 6630,
+        "misses": 0
+      }
+    }
+  },
+  "seed2": {
+    "seed": 2,
+    "test": {
+      "n_neg": 21299,
+      "n_fallback": 15250,
+      "fallback_frac": 0.716,
+      "fallback_down": 15250,
+      "fallback_up": 0,
+      "fallback_mean_shift": -2.759213114754098,
+      "all": {
+        "macro": 0.5556235872311038,
+        "sd": 0.3359298299597756,
+        "n_epitopes": 138,
+        "median_gap": 0.3333333333331818
+      },
+      "same_bucket": {
+        "macro": 0.5014797656704575,
+        "sd": 0.319409092801978,
+        "n_epitopes": 125,
+        "median_gap": 0.0
+      },
+      "fallback": {
+        "macro": 1.0,
+        "sd": 0.0,
+        "n_epitopes": 14,
+        "median_gap": 11494.0
+      },
+      "build_counts": {
+        "fallbacks": 15250,
+        "misses": 0
+      }
+    }
+  }
+}

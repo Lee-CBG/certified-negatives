@@ -1,0 +1,52 @@
+Loading data/swap_seed1.pkl ...
+  split: precomputed partition column
+mode=epi_only  device=cuda
+train 204,256 / val 40,684 / test 55,076
+epitopes: train 762, val 78, test 142 (disjoint)
+
+TCR embed dim 480  |  epi embed dim 528
+Moving tensors to device ...
+  GPU memory held by data: 1.13 GB
+parameters: 6,275,073
+
+  epoch   1  loss 0.7011  val AUROC 0.5000  <- best  patience 0/30  [13s]
+  epoch   2  loss 0.6966  val AUROC 0.5000  patience 1/30  [26s]
+  epoch   3  loss 0.6959  val AUROC 0.5000  patience 2/30  [41s]
+  epoch   4  loss 0.6954  val AUROC 0.5000  <- best  patience 0/30  [57s]
+  epoch   5  loss 0.6951  val AUROC 0.5000  patience 1/30  [71s]
+  epoch   6  loss 0.6949  val AUROC 0.5000  patience 2/30  [83s]
+  epoch   7  loss 0.6946  val AUROC 0.5000  patience 3/30  [95s]
+  epoch   8  loss 0.6946  val AUROC 0.5000  patience 4/30  [109s]
+  epoch   9  loss 0.6945  val AUROC 0.5000  patience 5/30  [122s]
+  epoch  10  loss 0.6943  val AUROC 0.5000  patience 6/30  [134s]
+  epoch  11  loss 0.6944  val AUROC 0.5000  patience 7/30  [149s]
+  epoch  12  loss 0.6944  val AUROC 0.5000  patience 8/30  [163s]
+  epoch  13  loss 0.6944  val AUROC 0.5000  patience 9/30  [176s]
+  epoch  14  loss 0.6944  val AUROC 0.5000  patience 10/30  [188s]
+  epoch  15  loss 0.6943  val AUROC 0.5000  patience 11/30  [201s]
+  epoch  16  loss 0.6944  val AUROC 0.5000  patience 12/30  [213s]
+  epoch  17  loss 0.6943  val AUROC 0.5000  patience 13/30  [230s]
+  epoch  18  loss 0.6943  val AUROC 0.5000  patience 14/30  [244s]
+  epoch  19  loss 0.6943  val AUROC 0.5000  patience 15/30  [256s]
+  epoch  20  loss 0.6942  val AUROC 0.5000  patience 16/30  [270s]
+  epoch  21  loss 0.6943  val AUROC 0.5000  patience 17/30  [289s]
+  epoch  22  loss 0.6943  val AUROC 0.5000  patience 18/30  [301s]
+  epoch  23  loss 0.6943  val AUROC 0.5000  patience 19/30  [313s]
+  epoch  24  loss 0.6943  val AUROC 0.5000  patience 20/30  [333s]
+  epoch  25  loss 0.6943  val AUROC 0.5000  patience 21/30  [348s]
+  epoch  26  loss 0.6942  val AUROC 0.5000  patience 22/30  [362s]
+  epoch  27  loss 0.6942  val AUROC 0.5000  patience 23/30  [374s]
+  epoch  28  loss 0.6944  val AUROC 0.5000  patience 24/30  [391s]
+  epoch  29  loss 0.6944  val AUROC 0.5000  patience 25/30  [406s]
+  epoch  30  loss 0.6943  val AUROC 0.5000  patience 26/30  [420s]
+  epoch  31  loss 0.6943  val AUROC 0.5000  patience 27/30  [433s]
+  epoch  32  loss 0.6943  val AUROC 0.5000  patience 28/30  [448s]
+  epoch  33  loss 0.6942  val AUROC 0.5000  patience 29/30  [460s]
+  epoch  34  loss 0.6942  val AUROC 0.5000  patience 30/30  [473s]
+  early stop at epoch 34
+
+  test AUROC              0.5001
+  macro AUROC per epitope 0.5022 (91 epitopes)
+  runtime                 473.8s
+
+Written to results/swap_partition_s1_epi_only.json

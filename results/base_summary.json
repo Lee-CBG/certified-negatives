@@ -1,0 +1,53 @@
+{
+  "full": {
+    "mode": "full",
+    "test_auroc": 0.7471,
+    "macro_auroc_per_epitope": 0.7562,
+    "n_epitopes_in_macro": 130,
+    "best_val_auroc": 0.7216,
+    "tcr_embed_dim": 480,
+    "epi_embed_dim": 528,
+    "n_parameters": 6275073,
+    "n_train": 221468,
+    "n_test": 45636,
+    "epochs_run": 38,
+    "seed": 0,
+    "batch_size": 32,
+    "runtime_sec": 566.3
+  },
+  "tcr_only": {
+    "mode": "tcr_only",
+    "test_auroc": 0.7462,
+    "macro_auroc_per_epitope": 0.75,
+    "n_epitopes_in_macro": 130,
+    "best_val_auroc": 0.7122,
+    "tcr_embed_dim": 480,
+    "epi_embed_dim": 528,
+    "n_parameters": 6275073,
+    "n_train": 221468,
+    "n_test": 45636,
+    "epochs_run": 39,
+    "seed": 0,
+    "batch_size": 32,
+    "runtime_sec": 762.1
+  },
+  "epi_only": {
+    "mode": "epi_only",
+    "test_auroc": 0.5,
+    "macro_auroc_per_epitope": 0.5003,
+    "n_epitopes_in_macro": 130,
+    "best_val_auroc": 0.5001,
+    "tcr_embed_dim": 480,
+    "epi_embed_dim": 528,
+    "n_parameters": 6275073,
+    "n_train": 221468,
+    "n_test": 45636,
+    "epochs_run": 39,
+    "seed": 0,
+    "batch_size": 32,
+    "runtime_sec": 673.4
+  },
+  "epitope_contribution_auroc": 0.0009,
+  "epitope_contribution_macro": 0.0062,
+  "provenance_floor": null
+}

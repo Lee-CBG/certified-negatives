@@ -1,0 +1,54 @@
+{
+  "n_pairs": 300016,
+  "overall_positive_rate": 0.5,
+  "cdr3_overlap": {
+    "unique_positive_cdr3": 140661,
+    "unique_negative_cdr3": 150008,
+    "shared_cdr3": 0,
+    "shared_pct_of_positive": 0.0
+  },
+  "epitope_balance": {
+    "n_epitopes": 982,
+    "median_positive_rate": 0.5,
+    "mean_positive_rate": 0.5,
+    "pct_epitopes_at_exactly_50pct": 100.0,
+    "median_pairs_per_epitope": 10
+  },
+  "surface_stats": {
+    "mean_len_positive": 14.381,
+    "mean_len_negative": 15.109,
+    "mean_len_difference": -0.727,
+    "largest_aa_freq_deltas_pct_points": [
+      [
+        "R",
+        -1.422
+      ],
+      [
+        "S",
+        1.31
+      ],
+      [
+        "E",
+        0.751
+      ],
+      [
+        "Q",
+        0.658
+      ],
+      [
+        "Y",
+        0.653
+      ],
+      [
+        "K",
+        -0.505
+      ]
+    ]
+  },
+  "provenance_leakage": {
+    "cdr3_only_ngram_auroc": 0.7115,
+    "n_train": 89183,
+    "n_test": 18313,
+    "note": "No peptide was shown to this model. This is the provenance floor."
+  }
+}
