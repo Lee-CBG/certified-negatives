@@ -12,5 +12,5 @@
   "epochs_run": 170,
   "seed": 0,
   "batch_size": 32,
-  "runtime_sec": 5141.2
+  "runtime_sec": 5086.3
 }

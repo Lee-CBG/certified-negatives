@@ -24,3 +24,6 @@ __pycache__/
 # ---- Run logs ----
 logs/
 *.log
+
+# Large arrays: rebuildable, too big for git
+*.npz

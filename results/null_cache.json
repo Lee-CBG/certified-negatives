@@ -1,0 +1,149 @@
+{
+  "base_seed0.pkl": {
+    "mean": 0.4988809429543168,
+    "sd": 0.012491349133636732,
+    "n_epitopes": 130,
+    "n_test": 45636,
+    "n_receptors": 45402
+  },
+  "base_seed1.pkl": {
+    "mean": 0.5004836618772961,
+    "sd": 0.01604171278128695,
+    "n_epitopes": 91,
+    "n_test": 55076,
+    "n_receptors": 54838
+  },
+  "base_seed2.pkl": {
+    "mean": 0.4996571540146168,
+    "sd": 0.011851734333779508,
+    "n_epitopes": 152,
+    "n_test": 49628,
+    "n_receptors": 49268
+  },
+  "baseg_seed0.pkl": {
+    "mean": 0.49977484420668783,
+    "sd": 0.007570237194552132,
+    "n_epitopes": 291,
+    "n_test": 45003,
+    "n_receptors": 43642
+  },
+  "baseg_seed1.pkl": {
+    "mean": 0.49964710449990424,
+    "sd": 0.007545418260766049,
+    "n_epitopes": 298,
+    "n_test": 45003,
+    "n_receptors": 43657
+  },
+  "grouped_seed0.pkl": {
+    "mean": 0.49993687391016894,
+    "sd": 0.007941244337526692,
+    "n_epitopes": 290,
+    "n_test": 45003,
+    "n_receptors": 21144
+  },
+  "grouped_seed1.pkl": {
+    "mean": 0.5000749028361937,
+    "sd": 0.00712085124827249,
+    "n_epitopes": 286,
+    "n_test": 45003,
+    "n_receptors": 21136
+  },
+  "grouped_seed2.pkl": {
+    "mean": 0.500324441104796,
+    "sd": 0.0072177375982458505,
+    "n_epitopes": 285,
+    "n_test": 45004,
+    "n_receptors": 21103
+  },
+  "m4_seed0.pkl": {
+    "mean": 0.4997654929185044,
+    "sd": 0.0067437480382054205,
+    "n_epitopes": 130,
+    "n_test": 45636,
+    "n_receptors": 22584
+  },
+  "m4_seed1.pkl": {
+    "mean": 0.4996343614234484,
+    "sd": 0.011625297384352314,
+    "n_epitopes": 91,
+    "n_test": 55076,
+    "n_receptors": 27300
+  },
+  "m4_seed2.pkl": {
+    "mean": 0.49984269511111173,
+    "sd": 0.005765846535203533,
+    "n_epitopes": 152,
+    "n_test": 49628,
+    "n_receptors": 24454
+  },
+  "m4g_seed0.pkl": {
+    "mean": 0.49997148694247523,
+    "sd": 0.00484481450570149,
+    "n_epitopes": 295,
+    "n_test": 45003,
+    "n_receptors": 21076
+  },
+  "m4g_seed1.pkl": {
+    "mean": 0.4999977075247259,
+    "sd": 0.00489238034870437,
+    "n_epitopes": 279,
+    "n_test": 45012,
+    "n_receptors": 21023
+  },
+  "m4g_seed2.pkl": {
+    "mean": 0.5002535348379571,
+    "sd": 0.005169979804225413,
+    "n_epitopes": 284,
+    "n_test": 45003,
+    "n_receptors": 21086
+  },
+  "mg_seed0.pkl": {
+    "mean": 0.50024444064078,
+    "sd": 0.004894297868497303,
+    "n_epitopes": 286,
+    "n_test": 45003,
+    "n_receptors": 21033
+  },
+  "mg_seed1.pkl": {
+    "mean": 0.5001016317673354,
+    "sd": 0.004770111347925726,
+    "n_epitopes": 304,
+    "n_test": 45004,
+    "n_receptors": 21034
+  },
+  "mg_seed2.pkl": {
+    "mean": 0.4997887003579842,
+    "sd": 0.004763938379640914,
+    "n_epitopes": 269,
+    "n_test": 45003,
+    "n_receptors": 21237
+  },
+  "baseg_seed2.pkl": {
+    "mean": 0.5002481517133524,
+    "sd": 0.007964000798475788,
+    "n_epitopes": 295,
+    "n_test": 45003,
+    "n_receptors": 43651
+  },
+  "matched_seed0.pkl": {
+    "mean": 0.4995866692331125,
+    "sd": 0.007432809194392784,
+    "n_epitopes": 130,
+    "n_test": 45636,
+    "n_receptors": 22584
+  },
+  "matched_seed1.pkl": {
+    "mean": 0.49987361748504144,
+    "sd": 0.008802647811860007,
+    "n_epitopes": 91,
+    "n_test": 55076,
+    "n_receptors": 27300
+  },
+  "matched_seed2.pkl": {
+    "mean": 0.4996477837978932,
+    "sd": 0.007035278036098551,
+    "n_epitopes": 152,
+    "n_test": 49628,
+    "n_receptors": 24454
+  }
+}
