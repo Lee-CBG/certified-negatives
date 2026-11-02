@@ -36,7 +36,11 @@ export PYTHONPATH=src       # required before every run
 ```
 
 `data/TCREpitopePairs.csv` is 300,016 pairs over 982 epitopes, exactly 50%
-positive, with every epitope individually at 50%.
+positive, with every epitope individually at 50%. The 150,008 positive rows
+contain 140,675 distinct receptors and the 150,008 negative rows contain 150,008
+distinct receptors, with no sequence shared between the two pools, so the file
+holds 290,683 distinct receptors in total. Of the positive-pool receptors, 6,778
+of 140,675 (4.82%) are recorded binding more than one epitope.
 
 BLOSUM-encoded datasets (`*.pkl`, about 1.2 GB each) are not in the repository.
 They rebuild byte-identically from the CSV; see below.
@@ -87,6 +91,35 @@ python3 src/report.py --results-dir results --prefix cmp4_s4
 
 Swap `m4g_` for `m4_` to get the unseen-epitope cells.
 
+## Training protocol
+
+Read from `src/train_pkl.py`.
+
+| setting         | value |
+| --------------- | ----- |
+| optimiser       | Adam, lr `1e-3`, PyTorch default betas and eps, no weight decay, no scheduler |
+| loss            | `BCEWithLogitsLoss` on the raw logit |
+| batch size      | 32; batches of fewer than 2 are skipped for BatchNorm |
+| epochs          | at most 200 |
+| early stopping  | patience 30 on validation AUROC |
+| checkpoint      | the best-validation-AUROC state is saved and reloaded before test evaluation, not the last epoch |
+| eval batch size | 4096; does not affect results |
+
+Splits come from `epitope_disjoint_split` in `src/data.py`: epitopes are sorted,
+permuted under the run seed, then assigned one at a time to whichever partition
+sits furthest below its target share, giving 75% of rows to train, 10% to
+validation and 15% to test, with no epitope spanning partitions. Each
+partition's negatives are drawn from its own receptors. The grouped design is
+applied afterwards, to the finished rows.
+
+**Two caveats carried in the paper.** Checkpoint selection uses *pooled*
+validation AUROC while every reported construction figure is the *per-epitope
+macro*. And on partition splits the validation partition is epitope-disjoint
+from test, so selection is made on a different sample of unseen epitopes than
+the one evaluated; its negatives are also the worst matched of the three
+partitions (at s = 4 on seed 0, mean absolute log2 home-size displacement 1.83
+against 0.42 on test and 0.17 on train).
+
 ## The screening protocol
 
 ```
@@ -123,28 +156,65 @@ panel beside the screen.
 
 ### The null must be simulated per test set
 
-Null widths measured here, by test-set family. A single range borrowed from one
-family and applied to another changes verdicts.
+Null widths by test-set family. A single range borrowed from one family and
+applied to another changes verdicts.
 
-| family                               | null sd          |
-| ------------------------------------ | ---------------- |
-| matched grouped (`m4g_*`, `mg_*`)    | 0.0048 to 0.0052 |
-| swap grouped (`grouped_*`)           | 0.0071 to 0.0079 |
-| background grouped (`baseg_*`)       | 0.0076 to 0.0080 |
+| family                                  | null sd          |
+| --------------------------------------- | ---------------- |
+| matched grouped (`m4g_*`, `mg_*`)       | 0.0048 to 0.0052 |
+| swap grouped (`grouped_*`)              | 0.0071 to 0.0079 |
+| background grouped (`baseg_*`)          | 0.0075 to 0.0080 |
 | matched partition (`m4_*`, `matched_*`) | 0.0058 to 0.0116 |
-| background partition (`base_*`)      | 0.0119 to 0.0160 |
+| background partition (`base_*`)         | 0.0119 to 0.0160 |
 
 Earlier versions of this README quoted "sd 0.0072 to 0.0080" for the whole
 table. That was the swap-grouped number applied everywhere, and under it
 Matched s=1 seen (0.4953) passes when against its own null it does not.
 
+Per-test-set values, from `results/null_cache.json`. The sd column is the
+quantity the screen compares against, so every verdict in the paper can be
+recomputed from this table and the per-run receptor-only values.
+
+| test set        | epitopes | receptors | sd     |
+| --------------- | -------- | --------- | ------ |
+| `base_seed0`    | 130      | 45,402    | 0.0125 |
+| `base_seed1`    | 91       | 54,838    | 0.0160 |
+| `base_seed2`    | 152      | 49,268    | 0.0119 |
+| `baseg_seed0`   | 291      | 43,642    | 0.0076 |
+| `baseg_seed1`   | 298      | 43,657    | 0.0075 |
+| `baseg_seed2`   | 295      | 43,651    | 0.0080 |
+| `grouped_seed0` | 290      | 21,144    | 0.0079 |
+| `grouped_seed1` | 286      | 21,136    | 0.0071 |
+| `grouped_seed2` | 285      | 21,103    | 0.0072 |
+| `matched_seed0` | 130      | 22,584    | 0.0074 |
+| `matched_seed1` | 91       | 27,300    | 0.0088 |
+| `matched_seed2` | 152      | 24,454    | 0.0070 |
+| `mg_seed0`      | 286      | 21,033    | 0.0049 |
+| `mg_seed1`      | 304      | 21,034    | 0.0048 |
+| `mg_seed2`      | 269      | 21,237    | 0.0048 |
+| `m4_seed0`      | 130      | 22,584    | 0.0067 |
+| `m4_seed1`      | 91       | 27,300    | 0.0116 |
+| `m4_seed2`      | 152      | 24,454    | 0.0058 |
+| `m4g_seed0`     | 295      | 21,076    | 0.0048 |
+| `m4g_seed1`     | 279      | 21,023    | 0.0049 |
+| `m4g_seed2`     | 284      | 21,086    | 0.0052 |
+
+Widths track eligible epitopes and receptor reuse rather than test-set size.
+Eligible-epitope counts on the partition design are 130, 91 and 152 for seeds
+0, 1 and 2 and are identical across constructions, so partition comparisons run
+on the same epitope sets. On the grouped design they differ between
+constructions (`mg_*` 286/304/269 against `m4g_*` 295/279/284), which is why the
+seen-epitope comparison in the paper restricts to the intersection.
+
 ### Choosing s for a new dataset
 
-s = 4 is the value for this dataset, not a universal constant. The position
-channel shrinks as s grows while fallback displacement grows, so the two cancel
-at a crossing point that depends on the epitope size distribution **and on the
-split design**: s = 4 passes on seen epitopes and s = 1 on unseen. Sweep and
-screen:
+s = 4 is the value for this dataset, not a universal constant. The within-bucket
+position channel shrinks as s grows while the fallback *rate* rises, and the two
+effects have opposite signs, so the probe macro crosses 0.5 somewhere in between
+at a point that depends on the epitope size distribution **and on the split
+design**: s = 4 passes on seen epitopes and s = 1 on unseen. Note that mean
+absolute log2 displacement improves monotonically over the same sweep even as the
+fallback rate rises, which is why both are reported. Sweep and screen:
 
 ```
 python3 src/sweep_granularity.py --csv data/TCREpitopePairs.csv \
@@ -154,13 +224,15 @@ python3 src/sweep_granularity.py --csv data/TCREpitopePairs.csv \
 
 Select on one set of seeds, confirm on held-out seeds. The sweep scores each
 construction with the home-size metadata probe, so it uses no trained model and
-no encoding.
+no encoding. Confirmation seeds 3, 4 and 5 have eligible-epitope counts of 82,
+119 and 49, more uneven than the selection seeds' 130, 91 and 152; seed 5 in
+particular is a small, donor-starved partition.
 
 ## Headline results
 
 catELMo MLP (6,275,073 params), BLOSUM62, 3 seeds, macro AUROC per epitope,
-sample standard deviation. **Each cell is scored against its own simulated
-null** (table above).
+**sample** standard deviation. **Each cell is scored against its own simulated
+null** (tables above).
 
 | construction    | seen full           | seen tcr\_only      | unseen full         | unseen tcr\_only    | passes |
 | --------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------ |
@@ -168,6 +240,15 @@ null** (table above).
 | swap            | 0.7093 ± 0.0097     | 0.4492 ± 0.0100     | 0.5548 ± 0.0318     | 0.4802 ± 0.0138     | seen: no; unseen: unassessed |
 | matched s=1     | 0.6903 ± 0.0077     | 0.4953 ± 0.0146     | 0.5535 ± 0.0291     | **0.5005 ± 0.0046** | unseen |
 | **matched s=4** | **0.7099 ± 0.0128** | **0.5022 ± 0.0007** | **0.5583 ± 0.0195** | 0.5014 ± 0.0106     | seen |
+
+Per-run receptor-only values, which are what the screen is actually applied to:
+
+| cell            | seed 0 | seed 1 | seed 2 | verdict |
+| --------------- | ------ | ------ | ------ | ------- |
+| matched s=1 seen   | 0.5034 | 0.5041 | 0.4784 | fails, seed 2 at 4.5 reference sd |
+| matched s=4 seen   | 0.5030 | 0.5019 | 0.5018 | passes on all three |
+| matched s=1 unseen | 0.5029 | 0.4952 | 0.5033 | passes on all three |
+| matched s=4 unseen | 0.4998 | 0.5127 | 0.4916 | fails on seeds 1 and 2 |
 
 The ablation contrast (full minus tcr_only macro AUROC, paired per seed) rises
 from **+0.0232 ± 0.0066** on the original data to **+0.2076 ± 0.0124** under the
@@ -197,6 +278,19 @@ layers is identically 4,206,593 parameters in all three.
 | ESM-2 650M | matched s=4 | 0.6726 ± 0.0097 | 0.5055 ± 0.0031 | +0.1671 ± 0.0067 | no |
 | TCR-BERT   | matched s=4 | 0.7027 ± 0.0065 | 0.5047 ± 0.0020 | +0.1980 ± 0.0054 | no |
 
+Checkpoints are `facebook/esm2_t33_650M_UR50D` and `wukevin/tcr-bert`, loaded
+with `AutoModel` in `src/build_plm_pkl.py`. Pooling takes the final hidden layer,
+drops the first and last special tokens, and averages the remaining positions
+under the attention mask; embeddings are computed and stored in float16.
+
+**`wukevin/tcr-bert` is the antigen-classification release.** `AutoModel` drops
+the classification head but keeps the fine-tuned encoder weights, so unlike
+ESM-2 the TCR-BERT features come from weights that were supervised on antigen
+labels before being frozen here. The masked-language-model-only release is a
+separate repository, `wukevin/tcr-bert-mlm-only`. Both are 768-dimensional, so
+the dimension does not disambiguate them. The comparison does not control for
+this difference and the paper says so.
+
 The audit half of this work replicates across all three representations. The
 remedy half does not.
 
@@ -221,8 +315,10 @@ remedy half does not.
   `check_provenance_leakage` calls `roc_auc_score` once over the whole test set.
   The 0.7326 figure is therefore comparable to the pooled full-model 0.7701 on
   the same splits, and must not be read as a per-epitope macro.
-  `run_external.py` reports both pooled and macro; on IMMREP23 they agree to
-  0.0004 because every epitope there carries the same 1:5 class ratio.
+- `run_external.py` reports both pooled and macro. On IMMREP23 they agree
+  closely because the per-epitope class ratio is nearly constant, but it is
+  **not** exactly 1:5: 598 positives against 2,886 negatives is 4.83:1 overall,
+  and the per-epitope ratio takes four distinct values from 4.11 to 5.00.
 - `build_bucketed` in `src/sweep_granularity.py` is the single builder. It
   returns `(df, stats)`, not a DataFrame.
 - The label column is `label` before encoding and `binding` after
@@ -234,13 +330,16 @@ remedy half does not.
 - `macro_auroc` applies `min_per_class=3`. This gates every macro and is why the
   number of epitopes entering the macro varies across seeds and constructions.
   `probe_shipped.py` silently drops epitopes below `--min-per-class`; check `n`
-  before reading any macro from it.
+  before reading any macro from it. On the paired seed-0 covariate panel, `n` is
+  130 of 202 test epitopes.
 - The n-gram floor is blind by construction on data with balanced per-receptor
   labels: the gradients cancel, the model emits a constant and macro reads
   0.5000. That is no measurement, not no signal. Check `max|coef|`.
-- Validation partitions are in donor famine on partition splits, so best-val
-  checkpoint selection is not meaningful there. **See the training protocol note
-  below.**
+- `sweep_granularity.py`'s `fb%` is threshold-dependent: at s = 4 a bucket spans
+  a factor of 1.19, so a "fallback" is a 1.19x displacement rather than 2x. Read
+  `mean_abs_lg_dist` when comparing modes.
+- `nearest` mode starves its donor pool: positive rate diverges from 0.5 and it
+  misses between 116 and 6,288 draws per run. Do not read its macro.
 - `mkdir -p logs` before any backgrounded run that redirects into `logs/`.
 - `--max-rows 300016`, not 300000. The file has 300,016 rows and anything lower
   silently subsamples, which changes epitope counts, which changes the split.
@@ -249,10 +348,6 @@ remedy half does not.
 
 These are open and are stated in the paper as limitations:
 
-- **Training protocol is not documented here.** Optimiser, learning rate, batch
-  size, epoch count and the checkpoint-selection rule used on partition splits
-  need to be written down, since best-val selection is not meaningful on those
-  splits. Reviewers will ask.
 - The screen's false-positive rate and its power against a planted channel of
   known magnitude have not been characterised. Three seeds is not enough to
   state either.
@@ -260,13 +355,12 @@ These are open and are stated in the paper as limitations:
 - About 12% of negative rows are duplicate (epitope, receptor) pairs from donor
   reuse. Unmeasured as a channel.
 - VDJdb and IMMREP23 have not been rebuilt at s = 4.
-
-## Housekeeping
-
-Three files at the top level are committed shell-redirection accidents and
-should be deleted: `ort -u`, `ses in staged files ==="`, and
-`ecret-ish patterns in staged files ==="`. They look like fragments of a broken
-pre-commit secret scan; check whether that scan ever ran.
+- Per-epitope dispersion exceeds its within-epitope permutation reference in
+  every reported run and does not shrink from s = 1 to s = 4. Cause not
+  identified.
+- `results/nbr_all_d3.npz` was computed over 140,661 positive-pool receptors
+  while a direct count of the released file gives 140,675. The 14-receptor gap
+  is untraced; nothing else in the analysis depends on it.
 
 ## Citation
 
